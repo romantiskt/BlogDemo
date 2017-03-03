@@ -52,6 +52,7 @@ public class DividerAct extends BaseAct {
         mRecyclerView= (RecyclerView) findViewById(R.id.rcy);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         mRecyclerView.setAdapter(mDividerAdapter=new DividerAdapter(this,mData));
+        /*******************设置默认的分隔线*******************/
         mRecyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayout.VERTICAL));
     }
 
