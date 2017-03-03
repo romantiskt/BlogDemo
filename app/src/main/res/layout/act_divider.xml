@@ -7,10 +7,10 @@
     android:layout_height="match_parent"
     tools:context="com.wang.homeexercise.MainActivity">
 
-    <Button
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcy"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:text="divider"
-        android:id="@+id/btn_divider"
-        />
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
 </RelativeLayout>

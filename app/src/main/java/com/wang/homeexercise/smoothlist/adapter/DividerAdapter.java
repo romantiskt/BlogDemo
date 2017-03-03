@@ -1,4 +1,4 @@
-package com.wang.homeexercise.adapter;
+package com.wang.homeexercise.smoothlist.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
