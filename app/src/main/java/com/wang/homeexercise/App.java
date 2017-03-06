@@ -2,7 +2,7 @@ package com.wang.homeexercise;
 
 import android.app.Application;
 
-import com.wang.tools.common.LogUtils;
+import com.wang.tools.CommonEngine;
 
 /**
  * Created by wangyang on 2017/03/03/
@@ -19,6 +19,6 @@ public class App extends Application {
     }
 
     private void initPlugin() {
-        LogUtils.init("wang","woopra",true);
+        CommonEngine.init(this);
     }
 }
