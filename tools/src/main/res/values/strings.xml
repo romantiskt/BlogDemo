@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HomeExercise</string>
+    <string name="net_no_connect">网络无连接</string>
+    <string name="parse_error">数据解析错误</string>
+    <string name="net_error">连接服务器出错</string>
+    <string name="net_time_out">连接服务器超时</string>
+</resources>

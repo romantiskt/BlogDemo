@@ -5,6 +5,7 @@ import android.support.annotation.NonNull;
 
 import com.wang.tools.common.LogUtils;
 import com.wang.tools.common.SingleToast;
+import com.wang.tools.common.UIUtils;
 
 /**
  * Created by wangyang on 2017/03/06/
@@ -23,6 +24,11 @@ public class CommonEngine implements IEnterInit{
         initLog();
         initToast();
         initNet();
+        initCommonUtils(context);
+    }
+
+    private void initCommonUtils(@NonNull Context context) {
+        UIUtils.init(context);
     }
 
     public static void init(@NonNull Context context) {

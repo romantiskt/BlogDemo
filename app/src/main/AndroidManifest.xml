@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".smoothlist.adapter.DividerAct"/>
+        <activity android:name=".smoothlist.DividerAct"/>
+        <activity android:name=".activity.WidgetExerciseAllListAct"/>
+        <activity android:name=".activity.WidgetShowAct"/>
     </application>
 
 </manifest>

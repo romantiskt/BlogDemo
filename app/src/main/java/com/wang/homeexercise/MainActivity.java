@@ -5,8 +5,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.wang.homeexercise.smoothlist.adapter.DividerAct;
-import com.wang.homeexercise.smoothlist.adapter.DividerAdapter;
+import com.wang.homeexercise.activity.WidgetExerciseAllListAct;
+import com.wang.homeexercise.smoothlist.DividerAct;
+import com.wang.homeexercise.adapter.DividerAdapter;
 import com.wang.tools.base.BaseAct;
 
 import java.util.List;
@@ -26,16 +27,24 @@ public class MainActivity extends BaseAct {
     }
 
     private Button btnDivider;
+    private Button btnWidget;
 
     @Override
     protected void initView() {
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.act_main);
 
         btnDivider = (Button) findViewById(R.id.btn_divider);
+        btnWidget = (Button) findViewById(R.id.btn_widget);
         btnDivider.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                  startActivity(new Intent(MainActivity.this, DividerAct.class));
+            }
+        });
+        btnWidget.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                 startActivity(new Intent(MainActivity.this, WidgetExerciseAllListAct.class));
             }
         });
     }

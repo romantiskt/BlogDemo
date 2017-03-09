@@ -30,7 +30,7 @@ import android.widget.TextView;
  * UI工具类.
  */
 public class UIUtils {
-    static Context context;
+    public static Context context;
     private static final String TAG="UIUtils";
     public static void init(Context con){
         context=con;

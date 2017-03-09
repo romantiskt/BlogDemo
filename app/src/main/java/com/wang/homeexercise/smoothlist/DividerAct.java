@@ -1,4 +1,4 @@
-package com.wang.homeexercise.smoothlist.adapter;
+package com.wang.homeexercise.smoothlist;
 
 import android.os.Bundle;
 import android.os.PersistableBundle;
@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.widget.LinearLayout;
 
 import com.wang.homeexercise.R;
+import com.wang.homeexercise.adapter.DividerAdapter;
 import com.wang.tools.base.BaseAct;
 
 import java.util.ArrayList;
@@ -18,7 +19,7 @@ import java.util.List;
  * data:2017/3/3 ..time:14:33
  * email: wyroman@163.com
  * projectName: instore
- * 描述:
+ * 描述: 作为对recyclerView的研究
  */
 public class DividerAct extends BaseAct {
     List<String> mData;
