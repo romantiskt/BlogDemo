@@ -18,7 +18,7 @@ import com.wang.tools.common.MeasureUtil;
  */
 public class CustomView2 extends View {
     public CustomView2(Context context) {
-        super(context, null);
+        this(context, null);
     }
 
     public CustomView2(Context context, AttributeSet attrs) {

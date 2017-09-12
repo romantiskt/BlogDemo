@@ -34,6 +34,10 @@ public class CustomView6 extends View {
     private int screenW, screenH;// 屏幕宽高
     private float preX, preY;// 记录上一个触摸事件的位置坐标
 
+    public CustomView6(Context context) {
+        this(context,null);
+    }
+
     public CustomView6(Context context, AttributeSet set) {
         super(context, set);
 

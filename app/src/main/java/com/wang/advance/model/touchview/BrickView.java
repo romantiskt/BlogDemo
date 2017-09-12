@@ -27,6 +27,10 @@ public class BrickView extends View {
 
     private float posX, posY;// 触摸点的XY坐标
 
+    public BrickView(Context context) {
+        this(context,null);
+    }
+
     public BrickView(Context context, AttributeSet attrs) {
         super(context, attrs);
 

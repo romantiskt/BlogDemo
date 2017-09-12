@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+      <com.wang.advance.model.touchview.BrickView
+          android:layout_width="match_parent"
+          android:layout_height="400dp" />
+    <com.wang.advance.model.touchview.CustomView1
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+    <com.wang.advance.model.touchview.CustomView2
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+    <com.wang.advance.model.touchview.CustomView3
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+    <com.wang.advance.model.touchview.CustomView4
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+    <com.wang.advance.model.touchview.CustomView5
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+    <com.wang.advance.model.touchview.CustomView6
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+    <com.wang.advance.model.touchview.MatrixImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+    <com.wang.advance.model.touchview.MultiCricleView
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+    <com.wang.advance.model.touchview.ShaderView
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+    <com.wang.advance.model.touchview.ShadowView
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+</LinearLayout>

@@ -5,6 +5,7 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 import com.wang.advance.R;
+import com.wang.advance.model.touchview.AnnularView;
 import com.wang.tools.base.BaseAct;
 import com.wang.tools.common.UIUtils;
 

@@ -20,7 +20,7 @@
  * @license http://www.apache.org/licenses/  Apache v2 License
  * @version 1.0
  */
-package com.wang.advance.model.widgetdiv;
+package com.wang.advance.model.touchview;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -34,7 +34,9 @@ import com.wang.tools.common.LogUtils;
 import com.wang.tools.common.UIUtils;
 import com.wang.tools.common.XChartCalc;
 
-
+/**
+ * 环形图（双环，）
+ */
 public class AnnularView extends View {
     private int ScrWidth, ScrHeight;    //演示用的百分比例,实际使用中，即为外部传入的比例参数
     private final float arrPer[] = new float[]{20f, 30f, 10f, 40f}; //RGB颜色数组

@@ -20,15 +20,15 @@ import com.wang.tools.common.MeasureUtil;
 /**
  * Created by Administrator on 2016/3/9.
  */
-public class CustomView extends View {
+public class CustomView1 extends View {
     Paint mPaint;
     Bitmap bitmap;
     private int x,y;
-    public CustomView(Context context) {
+    public CustomView1(Context context) {
         this(context, null);
     }
 
-    public CustomView(Context context, AttributeSet attrs) {
+    public CustomView1(Context context, AttributeSet attrs) {
         super(context, attrs);
         init(context);
     }
