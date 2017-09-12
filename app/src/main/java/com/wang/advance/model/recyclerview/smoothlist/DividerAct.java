@@ -1,4 +1,4 @@
-package com.wang.homeexercise.smoothlist;
+package com.wang.advance.model.recyclerview.smoothlist;
 
 import android.os.Bundle;
 import android.os.PersistableBundle;
@@ -7,8 +7,8 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.LinearLayout;
 
-import com.wang.homeexercise.R;
-import com.wang.homeexercise.adapter.DividerAdapter;
+import com.wang.advance.R;
+import com.wang.advance.model.recyclerview.adapter.DividerAdapter;
 import com.wang.tools.base.BaseAct;
 
 import java.util.ArrayList;

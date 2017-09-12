@@ -1,18 +1,15 @@
-package com.wang.homeexercise.activity;
+package com.wang.advance.model.widgetdiv;
 
 import android.support.annotation.IntDef;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
-import com.wang.homeexercise.R;
-import com.wang.homeexercise.widget.AnnularView;
+import com.wang.advance.R;
 import com.wang.tools.base.BaseAct;
 import com.wang.tools.common.UIUtils;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-
-import static org.xmlpull.v1.XmlPullParser.TYPES;
 
 /**
  * Created by romantiskt on 2017/3/9.

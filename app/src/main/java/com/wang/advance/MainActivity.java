@@ -1,13 +1,13 @@
-package com.wang.homeexercise;
+package com.wang.advance;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.wang.homeexercise.activity.WidgetExerciseAllListAct;
-import com.wang.homeexercise.smoothlist.DividerAct;
-import com.wang.homeexercise.adapter.DividerAdapter;
+import com.wang.advance.model.recyclerview.adapter.DividerAdapter;
+import com.wang.advance.model.recyclerview.smoothlist.DividerAct;
+import com.wang.advance.model.widgetdiv.WidgetExerciseAllListAct;
 import com.wang.tools.base.BaseAct;
 
 import java.util.List;

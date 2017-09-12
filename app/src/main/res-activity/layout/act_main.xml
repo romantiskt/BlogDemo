@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.wang.homeexercise.MainActivity">
+    tools:context="com.wang.homeexercise.com.wang.advance.MainActivity">
 
     <Button
         style="@style/btn_normal"
@@ -15,7 +15,7 @@
         />
     <Button
         style="@style/btn_normal"
-        android:text="widget"
+        android:text="自定义View"
         android:layout_marginTop="10dp"
         android:id="@+id/btn_widget"
         />

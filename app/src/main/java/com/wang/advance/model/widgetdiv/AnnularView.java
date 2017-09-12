@@ -20,7 +20,7 @@
  * @license http://www.apache.org/licenses/  Apache v2 License
  * @version 1.0
  */
-package com.wang.homeexercise.widget;
+package com.wang.advance.model.widgetdiv;
 
 import android.content.Context;
 import android.graphics.Canvas;
