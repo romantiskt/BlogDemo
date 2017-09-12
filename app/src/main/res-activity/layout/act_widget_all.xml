@@ -7,4 +7,9 @@
        android:layout_marginTop="10dp"
        android:text="环形图"
        android:id="@+id/btn_annular"/>
+   <Button
+       style="@style/btn_normal"
+       android:layout_marginTop="10dp"
+       android:text="touchview"
+       android:id="@+id/btn_touch"/>
 </LinearLayout>
