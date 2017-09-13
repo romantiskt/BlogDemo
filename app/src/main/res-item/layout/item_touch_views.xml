@@ -2,37 +2,37 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-      <com.wang.advance.widget.BrickView
+      <com.wang.advance.widget.low.BrickView
           android:layout_width="match_parent"
           android:layout_height="400dp" />
-    <com.wang.advance.widget.CustomView1
+    <com.wang.advance.widget.low.CustomView1
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.widget.CustomView2
+    <com.wang.advance.widget.low.CustomView2
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.widget.CustomView3
+    <com.wang.advance.widget.low.CustomView3
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.widget.CustomView4
+    <com.wang.advance.widget.low.CustomView4
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.widget.CustomView5
+    <com.wang.advance.widget.low.CustomView5
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.widget.CustomView6
+    <com.wang.advance.widget.low.CustomView6
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.widget.MatrixImageView
+    <com.wang.advance.widget.low.MatrixImageView
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.widget.MultiCricleView
+    <com.wang.advance.widget.low.MultiCricleView
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.widget.ShaderView
+    <com.wang.advance.widget.low.ShaderView
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.widget.ShadowView
+    <com.wang.advance.widget.low.ShadowView
         android:layout_width="match_parent"
         android:layout_height="400dp" />
 </LinearLayout>

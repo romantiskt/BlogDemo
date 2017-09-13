@@ -1,27 +1,23 @@
 package com.wang.advance.widget.enter;
 
-import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 import com.wang.advance.R;
-import com.wang.advance.widget.AnnularView;
-import com.wang.advance.widget.BrickView;
-import com.wang.advance.widget.CustomView1;
-import com.wang.advance.widget.CustomView2;
-import com.wang.advance.widget.CustomView3;
-import com.wang.advance.widget.CustomView4;
-import com.wang.advance.widget.CustomView5;
-import com.wang.advance.widget.CustomView6;
-import com.wang.advance.widget.MatrixImageView;
-import com.wang.advance.widget.MultiCricleView;
-import com.wang.advance.widget.ShaderView;
+import com.wang.advance.widget.low.AnnularView;
+import com.wang.advance.widget.low.BrickView;
+import com.wang.advance.widget.low.CustomView1;
+import com.wang.advance.widget.low.CustomView2;
+import com.wang.advance.widget.low.CustomView3;
+import com.wang.advance.widget.low.CustomView4;
+import com.wang.advance.widget.low.CustomView5;
+import com.wang.advance.widget.low.CustomView6;
+import com.wang.advance.widget.low.MatrixImageView;
+import com.wang.advance.widget.low.MultiCricleView;
+import com.wang.advance.widget.low.ShaderView;
+import com.wang.advance.widget.low.loading.LoadingIndicatorView;
 import com.wang.tools.base.BaseAct;
-import com.wang.tools.common.UIUtils;
-
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 
 /**
  * Created by romantiskt on 2017/3/9.
@@ -79,6 +75,9 @@ public class ShowSingleWidgetAct extends BaseAct {
                     break;
                 case ShaderView:
                     addViewToContainer(new ShaderView(this));
+                    break;
+                case LoadingIndicatorView:
+                    addViewToContainer(new LoadingIndicatorView(this));
                     break;
             }
         }

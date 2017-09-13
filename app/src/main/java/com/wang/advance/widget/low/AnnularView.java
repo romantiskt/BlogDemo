@@ -20,7 +20,7 @@
  * @license http://www.apache.org/licenses/  Apache v2 License
  * @version 1.0
  */
-package com.wang.advance.widget;
+package com.wang.advance.widget.low;
 
 import android.content.Context;
 import android.graphics.Canvas;

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LoadingIndicatorView">
+        <item name="minWidth">30dp</item>
+        <item name="maxWidth">30dp</item>
+        <item name="minHeight">30dp</item>
+        <item name="maxHeight">30dp</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+
+</resources>
