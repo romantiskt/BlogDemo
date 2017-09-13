@@ -1,4 +1,4 @@
-package com.wang.advance.model.touchview;
+package com.wang.advance.widget;
 
 import android.app.Activity;
 import android.content.Context;
@@ -28,6 +28,10 @@ public class ShaderView extends View {
 
 	private int left, top, right, bottom;// 矩形坐上右下坐标
 	private int screenX, screenY;
+
+	public ShaderView(Context context) {
+		this(context,null);
+	}
 
 	public ShaderView(Context context, AttributeSet attrs) {
 		super(context, attrs);

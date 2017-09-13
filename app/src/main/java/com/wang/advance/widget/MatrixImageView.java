@@ -1,4 +1,4 @@
-package com.wang.advance.model.touchview;
+package com.wang.advance.widget;
 
 import android.app.Activity;
 import android.content.Context;
@@ -36,6 +36,10 @@ public class MatrixImageView extends ImageView {
     private PointF start, mid;// 起点、中点对象
     private Matrix currentMatrix, savedMatrix;// 当前和保存了的Matrix对象
     private Context mContext;// Fuck……
+
+    public MatrixImageView(Context context) {
+        this(context,null);
+    }
 
     public MatrixImageView(Context context, AttributeSet attrs) {
         super(context, attrs);

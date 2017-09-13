@@ -20,7 +20,7 @@
  * @license http://www.apache.org/licenses/  Apache v2 License
  * @version 1.0
  */
-package com.wang.advance.model.touchview;
+package com.wang.advance.widget;
 
 import android.content.Context;
 import android.graphics.Canvas;

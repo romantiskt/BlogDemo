@@ -1,4 +1,4 @@
-package com.wang.advance.model.touchview;
+package com.wang.advance.widget;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;

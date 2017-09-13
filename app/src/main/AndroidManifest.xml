@@ -17,9 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.wang.advance.model.recyclerview.smoothlist.DividerAct"/>
-        <activity android:name="com.wang.advance.model.widgetdiv.WidgetExerciseAllListAct"/>
-        <activity android:name="com.wang.advance.model.widgetdiv.WidgetShowAct"/>
-        <activity android:name="com.wang.advance.model.touchview.TouchAct"/>
+        <activity android:name="com.wang.advance.widget.enter.WidgetAllListAct"/>
+        <activity android:name="com.wang.advance.widget.enter.ShowSingleWidgetAct"/>
     </application>
 
 </manifest>

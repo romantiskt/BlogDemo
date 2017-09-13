@@ -2,37 +2,37 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-      <com.wang.advance.model.touchview.BrickView
+      <com.wang.advance.widget.BrickView
           android:layout_width="match_parent"
           android:layout_height="400dp" />
-    <com.wang.advance.model.touchview.CustomView1
+    <com.wang.advance.widget.CustomView1
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.model.touchview.CustomView2
+    <com.wang.advance.widget.CustomView2
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.model.touchview.CustomView3
+    <com.wang.advance.widget.CustomView3
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.model.touchview.CustomView4
+    <com.wang.advance.widget.CustomView4
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.model.touchview.CustomView5
+    <com.wang.advance.widget.CustomView5
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.model.touchview.CustomView6
+    <com.wang.advance.widget.CustomView6
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.model.touchview.MatrixImageView
+    <com.wang.advance.widget.MatrixImageView
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.model.touchview.MultiCricleView
+    <com.wang.advance.widget.MultiCricleView
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.model.touchview.ShaderView
+    <com.wang.advance.widget.ShaderView
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.model.touchview.ShadowView
+    <com.wang.advance.widget.ShadowView
         android:layout_width="match_parent"
         android:layout_height="400dp" />
 </LinearLayout>

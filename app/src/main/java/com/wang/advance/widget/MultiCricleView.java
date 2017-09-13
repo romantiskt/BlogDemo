@@ -1,4 +1,4 @@
-package com.wang.advance.model.touchview;
+package com.wang.advance.widget;
 
 import android.content.Context;
 import android.graphics.Canvas;

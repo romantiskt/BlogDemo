@@ -5,16 +5,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.wang.advance.model.recyclerview.adapter.DividerAdapter;
-import com.wang.advance.model.recyclerview.smoothlist.DividerAct;
-import com.wang.advance.model.widgetdiv.WidgetExerciseAllListAct;
+import com.wang.advance.widget.enter.WidgetAllListAct;
 import com.wang.tools.base.BaseAct;
 
 import java.util.List;
 
 public class MainActivity extends BaseAct {
     List<String> mData;
-    DividerAdapter mDividerAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,13 +35,12 @@ public class MainActivity extends BaseAct {
         btnDivider.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                 startActivity(new Intent(MainActivity.this, DividerAct.class));
             }
         });
         btnWidget.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                 startActivity(new Intent(MainActivity.this, WidgetExerciseAllListAct.class));
+                 startActivity(new Intent(MainActivity.this, WidgetAllListAct.class));
             }
         });
     }
