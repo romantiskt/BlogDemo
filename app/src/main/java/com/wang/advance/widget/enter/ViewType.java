@@ -16,7 +16,8 @@ public enum ViewType {
     MatrixImageView("MatrixImageView"),
     MultiCricleView("MultiCricleView"),
     ShaderView("ShaderView"),
-    LoadingIndicatorView("LoadingIndicatorView");
+    LoadingIndicatorView("LoadingIndicatorView"),
+    CircleView("CircleView");
     private String typeName;
 
     ViewType(String typeName) {

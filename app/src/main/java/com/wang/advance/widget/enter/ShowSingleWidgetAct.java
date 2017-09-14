@@ -7,6 +7,7 @@ import android.widget.RelativeLayout;
 import com.wang.advance.R;
 import com.wang.advance.widget.low.AnnularView;
 import com.wang.advance.widget.low.BrickView;
+import com.wang.advance.widget.low.CircleView;
 import com.wang.advance.widget.low.CustomView1;
 import com.wang.advance.widget.low.CustomView2;
 import com.wang.advance.widget.low.CustomView3;
@@ -78,6 +79,9 @@ public class ShowSingleWidgetAct extends BaseAct {
                     break;
                 case LoadingIndicatorView:
                     addViewToContainer(new LoadingIndicatorView(this));
+                    break;
+                case CircleView:
+                    addViewToContainer(new CircleView(this));
                     break;
             }
         }
