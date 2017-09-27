@@ -1,16 +1,9 @@
-/*
- * BaseFileCallBack.java
- * business
- * Created by wangyang on 2017/1/6.
- *
- * Copyright (c) 2017年 zaicent. All rights reserved.
- */
 
 package com.wang.tools.net;
 
 
 import com.wang.tools.common.UIUtils;
-import com.zaicent.net.callback.FileCallBack;
+import com.basenet.net.callback.FileCallBack;
 
 import java.io.File;
 

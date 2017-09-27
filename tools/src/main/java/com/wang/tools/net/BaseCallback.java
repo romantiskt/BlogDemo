@@ -1,10 +1,3 @@
-/*
- * BaseCallback.java
- * business
- * Created by wangyang on 2017/1/6.
- *
- * Copyright (c) 2017年 zaicent. All rights reserved.
- */
 
 package com.wang.tools.net;
 
@@ -12,7 +5,7 @@ package com.wang.tools.net;
 import com.google.gson.Gson;
 import com.wang.tools.common.LogUtils;
 import com.wang.tools.common.SingleToast;
-import com.zaicent.net.callback.Callback;
+import com.basenet.net.callback.Callback;
 
 import okhttp3.Call;
 import okhttp3.Response;

@@ -1,10 +1,3 @@
-/*
- * NetBiz.java
- * business
- * Created by wangyang on 2017/1/6.
- *
- * Copyright (c) 2017年 zaicent. All rights reserved.
- */
 
 package com.wang.tools.net;
 
@@ -14,8 +7,8 @@ import android.text.TextUtils;
 import com.wang.tools.common.GsonUtil;
 import com.wang.tools.common.LogUtils;
 import com.wang.tools.common.StringUtils;
-import com.zaicent.net.OkHttpUtils;
-import com.zaicent.net.builder.PostFormBuilder;
+import com.basenet.net.OkHttpUtils;
+import com.basenet.net.builder.PostFormBuilder;
 
 import java.io.File;
 import java.util.Map;
