@@ -1,1 +1,1 @@
-include ':app', ':tools', ':net'
+include ':app', ':tools'

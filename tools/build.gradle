@@ -32,7 +32,6 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.0.1'
     testCompile 'junit:junit:4.12'
-    compile project(':net')
     compile 'com.google.code.gson:gson:2.2.4'
     compile('me.drakeet.multitype:multitype:3.3.0', {
         exclude group: 'com.android.support'
