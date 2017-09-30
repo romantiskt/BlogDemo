@@ -17,18 +17,22 @@ ext {
     rxAndroidVersion = '2.0.1'
     gsonVersion = '2.3'
     retrofitVersion = '2.3.0'
+    logInterceptorVersion = '3.6.0'
     supportVersion = '25.0.1'
 
     commonDependencies = [
-            gson               : "com.google.code.gson:gson:${gsonVersion}",
-            rxJava             : "io.reactivex.rxjava2:rxjava:${rxJavaVersion}",
-            rxAndroid          : "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}",
-            butterKnife        : "com.jakewharton:butterknife:${butterKnifeVersion}",
-            butterKnifeCompiler: "com.jakewharton:butterknife-compiler:${butterKnifeVersion}",
-            retrofit           : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+            gson                : "com.google.code.gson:gson:${gsonVersion}",
+            rxJava              : "io.reactivex.rxjava2:rxjava:${rxJavaVersion}",
+            rxAndroid           : "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}",
+            butterKnife         : "com.jakewharton:butterknife:${butterKnifeVersion}",
+            butterKnifeCompiler : "com.jakewharton:butterknife-compiler:${butterKnifeVersion}",
 
+            retrofit            : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+            "rxjavaAdapter"    : "com.squareup.retrofit2:adapter-rxjava:${retrofitVersion}",
+            "retrofitConverter": "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
 
-            appcompatV7        : "com.android.support:appcompat-v7:${supportVersion}",
-            recyclerView       : "com.android.support:recyclerview-v7:${supportVersion}",
+            appcompatV7         : "com.android.support:appcompat-v7:${supportVersion}",
+            recyclerView        : "com.android.support:recyclerview-v7:${supportVersion}",
+            "logInterceptor"   : "com.squareup.okhttp3:logging-interceptor:${logInterceptorVersion}",
     ]
 }

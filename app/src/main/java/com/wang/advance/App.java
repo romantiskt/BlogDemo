@@ -2,7 +2,9 @@ package com.wang.advance;
 
 import android.app.Application;
 
+import com.wang.advance.net.ApiConfigs;
 import com.wang.tools.CommonEngine;
+import com.wang.tools.net.ApiService;
 
 /**
  * Created by wangyang on 2017/03/03/
@@ -20,5 +22,6 @@ public class App extends Application {
 
     private void initPlugin() {
         CommonEngine.init(this);
+        ApiService.setBaseUrl(ApiConfigs.BASE_URL);
     }
 }

@@ -34,11 +34,16 @@ dependencies {
     })
 
     def dataDependencies = rootProject.ext.commonDependencies
+
     compile commonDependencies.retrofit
     compile commonDependencies.gson
     compile commonDependencies.rxJava
     compile commonDependencies.rxAndroid
     compile commonDependencies.butterKnife
+    compile commonDependencies.appcompatV7
+    compile commonDependencies.logInterceptor
+    compile commonDependencies.rxjavaAdapter
+    compile commonDependencies.retrofitConverter
     annotationProcessor commonDependencies.butterKnife
     compile commonDependencies.recyclerView
     compile('me.drakeet.multitype:multitype:3.3.0', {
