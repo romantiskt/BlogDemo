@@ -1,0 +1,34 @@
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+ext {
+    //Android
+    androidBuildToolsVersion = "25.0.0"
+    androidMinSdkVersion = 15
+    androidTargetSdkVersion = 23
+    androidCompileSdkVersion = 25
+
+    //Libraries
+    butterKnifeVersion = '8.8.1'
+    rxJavaVersion = '2.1.3'
+    rxAndroidVersion = '2.0.1'
+    gsonVersion = '2.3'
+    retrofitVersion = '2.3.0'
+    supportVersion = '25.0.1'
+
+    commonDependencies = [
+            gson               : "com.google.code.gson:gson:${gsonVersion}",
+            rxJava             : "io.reactivex.rxjava2:rxjava:${rxJavaVersion}",
+            rxAndroid          : "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}",
+            butterKnife        : "com.jakewharton:butterknife:${butterKnifeVersion}",
+            butterKnifeCompiler: "com.jakewharton:butterknife-compiler:${butterKnifeVersion}",
+            retrofit           : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+
+
+            appcompatV7        : "com.android.support:appcompat-v7:${supportVersion}",
+            recyclerView       : "com.android.support:recyclerview-v7:${supportVersion}",
+    ]
+}
