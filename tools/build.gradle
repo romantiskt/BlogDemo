@@ -37,7 +37,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
-    def dataDependencies = rootProject.ext.commonDependencies
+    def commonDependencies = rootProject.ext.commonDependencies
 
     compile commonDependencies.retrofit
     compile commonDependencies.gson
@@ -48,7 +48,7 @@ dependencies {
     compile commonDependencies.logInterceptor
     compile commonDependencies.rxjavaAdapter
     compile commonDependencies.retrofitConverter
-    annotationProcessor commonDependencies.butterKnife
+
     compile commonDependencies.recyclerView
     compile('me.drakeet.multitype:multitype:3.3.0', {
         exclude group: 'com.android.support'

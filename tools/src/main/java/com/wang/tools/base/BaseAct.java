@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import com.wang.tools.common.ActivityTasks;
 import com.wang.tools.common.LogUtils;
 
+import butterknife.ButterKnife;
+
 /**
  * Created by wangyang on 2017/03/03/
  * data:2017/3/3 ..time:14:35
@@ -49,11 +51,15 @@ public abstract class BaseAct extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(getLayoutId());
+        ButterKnife.bind(this);
         initView();
-        initData();
+        initDataAfterViewInflate();
     }
 
-    protected abstract void initData();
+    protected abstract int getLayoutId() ;
+
+    protected abstract void initDataAfterViewInflate();
 
     protected abstract void initView();
 

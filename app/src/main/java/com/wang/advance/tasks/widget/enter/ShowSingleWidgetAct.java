@@ -20,6 +20,8 @@ import com.wang.advance.tasks.widget.low.ShaderView;
 import com.wang.advance.tasks.widget.low.loading.LoadingIndicatorView;
 import com.wang.tools.base.BaseAct;
 
+import butterknife.BindView;
+
 /**
  * Created by romantiskt on 2017/3/9.
  */
@@ -28,16 +30,20 @@ public class ShowSingleWidgetAct extends BaseAct {
     public static final String EXA_SHOW_TYPE = "exa_show_type";
 
     @Override
-    protected void initData() {
+    protected int getLayoutId() {
+        return R.layout.act_widget_show;
+    }
+
+    @Override
+    protected void initDataAfterViewInflate() {
 
     }
 
+    @BindView(R.id.rl_parent)
     RelativeLayout mRlParent;
 
     @Override
     protected void initView() {
-        setContentView(R.layout.act_widget_show);
-        mRlParent = (RelativeLayout) findViewById(R.id.rl_parent);
         if (getIntent() != null) {
             String stringExtra = getIntent().getStringExtra(EXA_SHOW_TYPE);
             ViewType viewType = ViewType.fromTypeName(stringExtra);
@@ -72,7 +78,7 @@ public class ShowSingleWidgetAct extends BaseAct {
                     addViewToContainer(new MatrixImageView(this));
                     break;
                 case MultiCricleView:
-                    addViewToContainer( new MultiCricleView(this));
+                    addViewToContainer(new MultiCricleView(this));
                     break;
                 case ShaderView:
                     addViewToContainer(new ShaderView(this));

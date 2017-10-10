@@ -8,17 +8,16 @@
 
     <Button
         style="@style/btn_normal"
-        android:text="divider"
-        android:layout_marginTop="10dp"
-        android:id="@+id/btn_divider"
-        />
-    <Button
-        style="@style/btn_normal"
         android:text="自定义View"
         android:layout_marginTop="10dp"
         android:id="@+id/btn_widget"
         />
-
+    <Button
+        style="@style/btn_normal"
+        android:text="RxJava Demo"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_rxjava"
+        />
     <com.wang.advance.tasks.widget.low.MultiLinesTextView
         android:id="@+id/text2"
         android:layout_width="wrap_content"

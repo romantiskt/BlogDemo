@@ -13,6 +13,7 @@ import com.wang.tools.base.BaseAct;
 
 import java.util.Arrays;
 
+import butterknife.BindView;
 import me.drakeet.multitype.MultiTypeAdapter;
 
 /**
@@ -22,18 +23,25 @@ import me.drakeet.multitype.MultiTypeAdapter;
 
 public class WidgetAllListAct extends BaseAct {
     @Override
-    protected void initData() {
+    protected int getLayoutId() {
+        return R.layout.act_widget_all;
+    }
+
+    @Override
+    protected void initDataAfterViewInflate() {
 
     }
 
-        ViewType[] values = ViewType.values();
+    @BindView(R.id.rl_container)
     RecyclerView mRlContainer;
+    ViewType[] values = ViewType.values();
     MultiTypeAdapter dividerAdapter;
+
     OnItemClickListener onClickListener = new OnItemClickListener() {
         @Override
         public void click(int pos, View view) {
-            Intent intent=new Intent(WidgetAllListAct.this,ShowSingleWidgetAct.class);
-            intent.putExtra(ShowSingleWidgetAct.EXA_SHOW_TYPE,values[pos].getTypeName());
+            Intent intent = new Intent(WidgetAllListAct.this, ShowSingleWidgetAct.class);
+            intent.putExtra(ShowSingleWidgetAct.EXA_SHOW_TYPE, values[pos].getTypeName());
             startActivity(intent);
         }
 
@@ -41,9 +49,6 @@ public class WidgetAllListAct extends BaseAct {
 
     @Override
     protected void initView() {
-
-        setContentView(R.layout.act_widget_all);
-        mRlContainer = (RecyclerView) findViewById(R.id.rl_container);
         mRlContainer.setLayoutManager(new GridLayoutManager(this, 2));
         mRlContainer.addItemDecoration(new DividerItemDecoration(this, LinearLayout.VERTICAL));
         dividerAdapter = new MultiTypeAdapter();
