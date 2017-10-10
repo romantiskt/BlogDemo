@@ -1,5 +1,6 @@
 package com.wang.tools.base;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -57,11 +58,26 @@ public abstract class BaseAct extends AppCompatActivity {
         initDataAfterViewInflate();
     }
 
-    protected abstract int getLayoutId() ;
+    protected abstract int getLayoutId();
 
     protected abstract void initDataAfterViewInflate();
 
     protected abstract void initView();
 
     public abstract String getClassTag();
+
+    protected void goAct(Class<?> cls) {
+        goAct(cls, Integer.MIN_VALUE);
+    }
+
+    private final void goAct(Class<?> cls, int requestCode) {
+        if (cls != null) {
+            Intent intent = new Intent(this, cls);
+            if (requestCode == Integer.MIN_VALUE) {
+                startActivity(intent);
+            } else {
+                startActivityForResult(intent, requestCode);
+            }
+        }
+    }
 }

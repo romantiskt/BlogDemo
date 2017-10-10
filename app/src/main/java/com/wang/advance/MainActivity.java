@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.wang.advance.tasks.rxjava.RxJavaDemoAct;
 import com.wang.advance.tasks.widget.enter.WidgetAllListAct;
 import com.wang.advance.tasks.widget.low.MultiLinesTextView;
 import com.wang.tools.base.BaseAct;
@@ -42,11 +43,14 @@ public class MainActivity extends BaseAct {
         mTv.setmDatas(D);
     }
 
-    @OnClick({ R.id.btn_widget})
+    @OnClick({ R.id.btn_widget,R.id.btn_rxjava})
     void click(View view) {
         switch (view.getId()) {
             case R.id.btn_widget:
-                startActivity(new Intent(MainActivity.this, WidgetAllListAct.class));
+                goAct(WidgetAllListAct.class);
+                break;
+            case R.id.btn_rxjava:
+                goAct(RxJavaDemoAct.class);
                 break;
         }
     }
