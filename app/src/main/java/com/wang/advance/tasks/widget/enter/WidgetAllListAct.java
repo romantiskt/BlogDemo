@@ -1,4 +1,4 @@
-package com.wang.advance.widget.enter;
+package com.wang.advance.tasks.widget.enter;
 
 import android.content.Intent;
 import android.support.v7.widget.DividerItemDecoration;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 import com.wang.advance.R;
-import com.wang.advance.model.OnItemClickListener;
+import com.wang.advance.model.contracts.OnItemClickListener;
 import com.wang.tools.base.BaseAct;
 
 import java.util.Arrays;

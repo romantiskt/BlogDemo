@@ -28,7 +28,7 @@ ext {
             butterKnifeCompiler : "com.jakewharton:butterknife-compiler:${butterKnifeVersion}",
 
             retrofit            : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
-            "rxjavaAdapter"    : "com.squareup.retrofit2:adapter-rxjava:${retrofitVersion}",
+            "rxjavaAdapter"    : "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}",
             "retrofitConverter": "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
 
             appcompatV7         : "com.android.support:appcompat-v7:${supportVersion}",

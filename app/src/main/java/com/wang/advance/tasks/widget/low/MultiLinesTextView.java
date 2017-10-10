@@ -1,4 +1,4 @@
-package com.wang.advance.widget.low;
+package com.wang.advance.tasks.widget.low;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -12,8 +12,6 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.wang.advance.MainActivity;
 
 import java.util.List;
 

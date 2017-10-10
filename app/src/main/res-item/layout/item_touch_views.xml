@@ -2,37 +2,37 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-      <com.wang.advance.widget.low.BrickView
+      <com.wang.advance.tasks.widget.low.BrickView
           android:layout_width="match_parent"
           android:layout_height="400dp" />
-    <com.wang.advance.widget.low.CustomView1
+    <com.wang.advance.tasks.widget.low.CustomView1
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.widget.low.CustomView2
+    <com.wang.advance.tasks.widget.low.CustomView2
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.widget.low.CustomView3
+    <com.wang.advance.tasks.widget.low.CustomView3
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.widget.low.CustomView4
+    <com.wang.advance.tasks.widget.low.CustomView4
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.widget.low.CustomView5
+    <com.wang.advance.tasks.widget.low.CustomView5
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.widget.low.CustomView6
+    <com.wang.advance.tasks.widget.low.CustomView6
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.widget.low.MatrixImageView
+    <com.wang.advance.tasks.widget.low.MatrixImageView
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.widget.low.MultiCricleView
+    <com.wang.advance.tasks.widget.low.MultiCricleView
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.widget.low.ShaderView
+    <com.wang.advance.tasks.widget.low.ShaderView
         android:layout_width="match_parent"
         android:layout_height="400dp" />
-    <com.wang.advance.widget.low.ShadowView
+    <com.wang.advance.tasks.widget.low.ShadowView
         android:layout_width="match_parent"
         android:layout_height="400dp" />
 </LinearLayout>

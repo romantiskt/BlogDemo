@@ -1,4 +1,4 @@
-package com.wang.advance.widget.enter;
+package com.wang.advance.tasks.widget.enter;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.wang.advance.R;
-import com.wang.advance.model.OnItemClickListener;
+import com.wang.advance.model.contracts.OnItemClickListener;
 
 import me.drakeet.multitype.ItemViewBinder;
 

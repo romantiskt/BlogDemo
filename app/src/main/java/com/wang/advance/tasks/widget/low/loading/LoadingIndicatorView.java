@@ -1,4 +1,4 @@
-package com.wang.advance.widget.low.loading;
+package com.wang.advance.tasks.widget.low.loading;
 
 import android.annotation.TargetApi;
 import android.content.Context;

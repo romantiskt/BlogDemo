@@ -1,4 +1,4 @@
-package com.wang.advance.widget.low.loading;
+package com.wang.advance.tasks.widget.low.loading;
 
 import android.animation.ValueAnimator;
 import android.content.Context;

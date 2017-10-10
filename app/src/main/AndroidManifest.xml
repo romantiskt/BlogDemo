@@ -16,8 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.wang.advance.widget.enter.WidgetAllListAct"/>
-        <activity android:name="com.wang.advance.widget.enter.ShowSingleWidgetAct"/>
+        <activity android:name=".tasks.widget.enter.WidgetAllListAct"/>
+        <activity android:name=".tasks.widget.enter.ShowSingleWidgetAct"/>
     </application>
 
 </manifest>

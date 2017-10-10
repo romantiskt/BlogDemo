@@ -1,4 +1,4 @@
-package com.wang.advance.model;
+package com.wang.advance.model.contracts;
 
 import android.view.View;
 

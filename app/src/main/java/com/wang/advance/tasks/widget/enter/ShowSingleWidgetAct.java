@@ -1,23 +1,23 @@
-package com.wang.advance.widget.enter;
+package com.wang.advance.tasks.widget.enter;
 
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 import com.wang.advance.R;
-import com.wang.advance.widget.low.AnnularView;
-import com.wang.advance.widget.low.BrickView;
-import com.wang.advance.widget.low.CircleView;
-import com.wang.advance.widget.low.CustomView1;
-import com.wang.advance.widget.low.CustomView2;
-import com.wang.advance.widget.low.CustomView3;
-import com.wang.advance.widget.low.CustomView4;
-import com.wang.advance.widget.low.CustomView5;
-import com.wang.advance.widget.low.CustomView6;
-import com.wang.advance.widget.low.MatrixImageView;
-import com.wang.advance.widget.low.MultiCricleView;
-import com.wang.advance.widget.low.ShaderView;
-import com.wang.advance.widget.low.loading.LoadingIndicatorView;
+import com.wang.advance.tasks.widget.low.AnnularView;
+import com.wang.advance.tasks.widget.low.BrickView;
+import com.wang.advance.tasks.widget.low.CircleView;
+import com.wang.advance.tasks.widget.low.CustomView1;
+import com.wang.advance.tasks.widget.low.CustomView2;
+import com.wang.advance.tasks.widget.low.CustomView3;
+import com.wang.advance.tasks.widget.low.CustomView4;
+import com.wang.advance.tasks.widget.low.CustomView5;
+import com.wang.advance.tasks.widget.low.CustomView6;
+import com.wang.advance.tasks.widget.low.MatrixImageView;
+import com.wang.advance.tasks.widget.low.MultiCricleView;
+import com.wang.advance.tasks.widget.low.ShaderView;
+import com.wang.advance.tasks.widget.low.loading.LoadingIndicatorView;
 import com.wang.tools.base.BaseAct;
 
 /**
