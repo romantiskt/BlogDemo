@@ -30,6 +30,7 @@ public class SingleUtil extends UtilContracts {
                     @Override
                     public void onSubscribe(@NonNull Disposable d) {
                         tv.append("onSubscribe...");
+                        tv.append(LINE_SEPARATOR);
                     }
 
                     @Override
@@ -41,7 +42,7 @@ public class SingleUtil extends UtilContracts {
                     @Override
                     public void onError(@NonNull Throwable e) {
                         tv.append("onError...");
-
+                        tv.append(LINE_SEPARATOR);
                     }
                 });
     }

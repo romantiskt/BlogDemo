@@ -6,6 +6,7 @@ import android.widget.TextView;
 
 import com.wang.advance.R;
 import com.wang.advance.tasks.rxjava.operators.CommonUtil;
+import com.wang.advance.tasks.rxjava.operators.CompletableUtil;
 import com.wang.advance.tasks.rxjava.operators.DisposUtil;
 import com.wang.advance.tasks.rxjava.operators.DisposableUtil;
 import com.wang.advance.tasks.rxjava.operators.IntervalUtil;
@@ -34,7 +35,7 @@ public class RxJavaDemoAct extends BaseAct {
 
     String[] datas = new String[]{
             "Common", "Map", "Zip", "Disposable", "Disposable管理", "Take",
-            "Timer", "Interval", "Single"
+            "Timer", "Interval", "Single", "Completable"
     };
     UtilContracts utilContracts;
 
@@ -90,6 +91,9 @@ public class RxJavaDemoAct extends BaseAct {
                     break;
                 case "Single":
                     new SingleUtil().util(mTvShow);
+                    break;
+                case "Completable":
+                    new CompletableUtil().util(mTvShow);
                     break;
 
             }
