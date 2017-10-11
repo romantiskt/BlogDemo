@@ -43,7 +43,7 @@ public class CommonUtil extends UtilContracts {
      */
     @Override
     public void util(final TextView tv) {
-        tv.setText(new Date().toString());
+        tv.setText(date);
         io.reactivex.Observable.just(1, 2, 3, 4)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())

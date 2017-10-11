@@ -28,13 +28,14 @@ public class MapUtil extends UtilContracts {
      */
     @Override
     public void util(final TextView tv) {
-        tv.setText(new Date().toString());
+        tv.setText(date);
         Observable
                 .create(new ObservableOnSubscribe<String>() {
                     @Override
                     public void subscribe(@NonNull ObservableEmitter<String> e) throws Exception {
                         e.onNext("hello world");
                         e.onNext("wang");
+                        e.onComplete();
                     }
                 })
                 .subscribeOn(Schedulers.io())

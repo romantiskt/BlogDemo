@@ -6,7 +6,9 @@ import android.widget.TextView;
 
 import com.wang.advance.R;
 import com.wang.advance.tasks.rxjava.operators.CommonUtil;
+import com.wang.advance.tasks.rxjava.operators.DisposUtil;
 import com.wang.advance.tasks.rxjava.operators.MapUtil;
+import com.wang.advance.tasks.rxjava.operators.ZipUtil;
 import com.wang.advance.tasks.widget.low.dialog.ListDialog;
 import com.wang.tools.base.BaseAct;
 
@@ -59,6 +61,12 @@ public class RxJavaDemoAct extends BaseAct {
                     break;
                 case "Map":
                     new MapUtil().util(mTvShow);
+                    break;
+                case "Zip":
+                    new ZipUtil().util(mTvShow);
+                    break;
+                case "Disposable":
+                    new DisposUtil().util(mTvShow);
                     break;
 
 
