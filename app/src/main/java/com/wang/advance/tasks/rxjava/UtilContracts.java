@@ -14,4 +14,7 @@ public abstract class UtilContracts {
     protected String date=new Date().toString()+"\n";
 
     public abstract void util(TextView tv);
+
+
+    protected void onDestory(){};
 }

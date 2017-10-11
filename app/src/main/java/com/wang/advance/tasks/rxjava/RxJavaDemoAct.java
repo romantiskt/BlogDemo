@@ -7,6 +7,7 @@ import android.widget.TextView;
 import com.wang.advance.R;
 import com.wang.advance.tasks.rxjava.operators.CommonUtil;
 import com.wang.advance.tasks.rxjava.operators.DisposUtil;
+import com.wang.advance.tasks.rxjava.operators.DisposableUtil;
 import com.wang.advance.tasks.rxjava.operators.MapUtil;
 import com.wang.advance.tasks.rxjava.operators.ZipUtil;
 import com.wang.advance.tasks.widget.low.dialog.ListDialog;
@@ -28,9 +29,9 @@ public class RxJavaDemoAct extends BaseAct {
     }
 
     String[] datas = new String[]{
-            "Common", "Map", "Zip", "Disposable"
+            "Common", "Map", "Zip", "Disposable", "Disposable管理"
     };
-
+    UtilContracts utilContracts;
     @Override
     protected void initDataAfterViewInflate() {
     }
@@ -68,11 +69,23 @@ public class RxJavaDemoAct extends BaseAct {
                 case "Disposable":
                     new DisposUtil().util(mTvShow);
                     break;
+                case "Disposable管理":
+                    utilContracts=new DisposableUtil();
+                    utilContracts.util(mTvShow);
+                    break;
 
 
             }
         }
     };
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if(utilContracts!=null){
+            utilContracts.onDestory();
+        }
+    }
 
     @Override
     protected void initView() {
