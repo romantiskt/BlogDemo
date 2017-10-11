@@ -14,4 +14,7 @@
     7.zip
     8.disposable
     9.defer
+    10.take
+    11.timer
+    12.interval
    ```

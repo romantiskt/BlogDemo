@@ -8,7 +8,10 @@ import com.wang.advance.R;
 import com.wang.advance.tasks.rxjava.operators.CommonUtil;
 import com.wang.advance.tasks.rxjava.operators.DisposUtil;
 import com.wang.advance.tasks.rxjava.operators.DisposableUtil;
+import com.wang.advance.tasks.rxjava.operators.IntervalUtil;
 import com.wang.advance.tasks.rxjava.operators.MapUtil;
+import com.wang.advance.tasks.rxjava.operators.TakeUtil;
+import com.wang.advance.tasks.rxjava.operators.TimerUtil;
 import com.wang.advance.tasks.rxjava.operators.ZipUtil;
 import com.wang.advance.tasks.widget.low.dialog.ListDialog;
 import com.wang.tools.base.BaseAct;
@@ -29,9 +32,11 @@ public class RxJavaDemoAct extends BaseAct {
     }
 
     String[] datas = new String[]{
-            "Common", "Map", "Zip", "Disposable", "Disposable管理"
+            "Common", "Map", "Zip", "Disposable", "Disposable管理", "Take",
+            "Timer", "Interval"
     };
     UtilContracts utilContracts;
+
     @Override
     protected void initDataAfterViewInflate() {
     }
@@ -70,10 +75,18 @@ public class RxJavaDemoAct extends BaseAct {
                     new DisposUtil().util(mTvShow);
                     break;
                 case "Disposable管理":
-                    utilContracts=new DisposableUtil();
+                    utilContracts = new DisposableUtil();
                     utilContracts.util(mTvShow);
                     break;
-
+                case "Take":
+                    new TakeUtil().util(mTvShow);
+                    break;
+                case "Timer":
+                    new TimerUtil().util(mTvShow);
+                    break;
+                case "Interval":
+                    new IntervalUtil().util(mTvShow);
+                    break;
 
             }
         }
@@ -82,7 +95,7 @@ public class RxJavaDemoAct extends BaseAct {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        if(utilContracts!=null){
+        if (utilContracts != null) {
             utilContracts.onDestory();
         }
     }
