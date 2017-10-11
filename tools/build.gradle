@@ -49,6 +49,7 @@ dependencies {
     compile commonDependencies.rxjavaAdapter
     compile commonDependencies.retrofitConverter
 
+//    compile commonDependencies.recycleViewAdapter
     compile commonDependencies.recyclerView
     compile('me.drakeet.multitype:multitype:3.3.0', {
         exclude group: 'com.android.support'

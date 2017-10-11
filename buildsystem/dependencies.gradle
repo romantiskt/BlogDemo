@@ -20,19 +20,23 @@ ext {
     logInterceptorVersion = '3.6.0'
     supportVersion = '25.0.1'
 
+    recycleAdapterVersion = "2.9.30"
+
     commonDependencies = [
-            gson                : "com.google.code.gson:gson:${gsonVersion}",
-            rxJava              : "io.reactivex.rxjava2:rxjava:${rxJavaVersion}",
-            rxAndroid           : "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}",
-            butterKnife         : "com.jakewharton:butterknife:${butterKnifeVersion}",
-            butterKnifeCompiler : "com.jakewharton:butterknife-compiler:${butterKnifeVersion}",
+            gson               : "com.google.code.gson:gson:${gsonVersion}",
+            rxJava             : "io.reactivex.rxjava2:rxjava:${rxJavaVersion}",
+            rxAndroid          : "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}",
+            butterKnife        : "com.jakewharton:butterknife:${butterKnifeVersion}",
+            butterKnifeCompiler: "com.jakewharton:butterknife-compiler:${butterKnifeVersion}",
 
-            retrofit            : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
-            "rxjavaAdapter"    : "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}",
-            "retrofitConverter": "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
+            retrofit           : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+            rxjavaAdapter      : "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}",
+            retrofitConverter  : "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
 
-            appcompatV7         : "com.android.support:appcompat-v7:${supportVersion}",
-            recyclerView        : "com.android.support:recyclerview-v7:${supportVersion}",
-            "logInterceptor"   : "com.squareup.okhttp3:logging-interceptor:${logInterceptorVersion}",
+            appcompatV7        : "com.android.support:appcompat-v7:${supportVersion}",
+            recyclerView       : "com.android.support:recyclerview-v7:${supportVersion}",
+            logInterceptor     : "com.squareup.okhttp3:logging-interceptor:${logInterceptorVersion}",
+
+            recycleViewAdapter : "com.github.CymChad:BaseRecyclerViewAdapterHelper:${recycleAdapterVersion}",
     ]
 }
