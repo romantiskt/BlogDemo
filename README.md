@@ -17,4 +17,5 @@
     10.take
     11.timer
     12.interval
+    13.single
    ```
