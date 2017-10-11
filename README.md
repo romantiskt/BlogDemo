@@ -18,4 +18,7 @@
     11.timer
     12.interval
     13.single
+    14.completable
+    15.reduce
+    16.buffer
    ```

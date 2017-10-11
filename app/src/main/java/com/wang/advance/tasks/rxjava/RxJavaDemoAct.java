@@ -5,6 +5,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.wang.advance.R;
+import com.wang.advance.tasks.rxjava.operators.BufferUtil;
 import com.wang.advance.tasks.rxjava.operators.CommonUtil;
 import com.wang.advance.tasks.rxjava.operators.CompletableUtil;
 import com.wang.advance.tasks.rxjava.operators.DisposUtil;
@@ -36,7 +37,7 @@ public class RxJavaDemoAct extends BaseAct {
 
     String[] datas = new String[]{
             "Common", "Map", "Zip", "Disposable", "Disposable管理", "Take",
-            "Timer", "Interval", "Single", "Completable", "Reduce"
+            "Timer", "Interval", "Single", "Completable", "Reduce","Buffer"
     };
     UtilContracts utilContracts;
 
@@ -98,6 +99,9 @@ public class RxJavaDemoAct extends BaseAct {
                     break;
                 case "Reduce":
                     new ReduceUtil().util(mTvShow);
+                    break;
+                case "Buffer":
+                    new BufferUtil().util(mTvShow);
                     break;
 
             }
