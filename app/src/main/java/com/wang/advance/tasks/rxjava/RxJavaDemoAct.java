@@ -17,6 +17,7 @@ import com.wang.advance.tasks.rxjava.operators.ReduceUtil;
 import com.wang.advance.tasks.rxjava.operators.ScanUtil;
 import com.wang.advance.tasks.rxjava.operators.SingleUtil;
 import com.wang.advance.tasks.rxjava.operators.SkipUtil;
+import com.wang.advance.tasks.rxjava.operators.SubjectUtil;
 import com.wang.advance.tasks.rxjava.operators.TakeUtil;
 import com.wang.advance.tasks.rxjava.operators.TimerUtil;
 import com.wang.advance.tasks.rxjava.operators.ZipUtil;
@@ -41,7 +42,7 @@ public class RxJavaDemoAct extends BaseAct {
     String[] datas = new String[]{
             "Common", "Map", "Zip", "Disposable", "Disposable管理", "Take",
             "Timer", "Interval", "Single", "Completable", "Reduce","Buffer",
-            "Filter","Skip","Scan"
+            "Filter","Skip","Scan","Subject"
     };
     UtilContracts utilContracts;
 
@@ -115,6 +116,9 @@ public class RxJavaDemoAct extends BaseAct {
                     break;
                 case "Scan":
                     new ScanUtil().util(mTvShow);
+                    break;
+                case "Subject":
+                    new SubjectUtil().util(mTvShow);
                     break;
 
             }
