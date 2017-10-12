@@ -22,5 +22,6 @@
     15.reduce       算法工具，对一个序列通过指定函数两两运算
     16.buffer       缓存的概念，从一个数据源拿出几项打包发射
     17.skip         跳过前面的x项数据
+    18.scan         类似于reduce,不同在于这里会输入一个序列经过函数处理后发射一个序列
    ```
     [操作符说明](https://www.zhihu.com/question/32209660?sort=created)另外一个比较全面的Rxjava操作符说明
