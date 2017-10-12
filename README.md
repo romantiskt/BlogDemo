@@ -5,20 +5,22 @@
        
 *  RxJava操作符的练习
    ```
-    1.Observable
-    2.Flowable
-    3.Obsever
-    4.Subscriber,
-    5.just
-    6.map
-    7.zip
-    8.disposable
-    9.defer
-    10.take
-    11.timer
-    12.interval
-    13.single
-    14.completable
-    15.reduce
-    16.buffer
+    1.Observable 不支持背压的Observable
+    2.Flowable   支持背压的Observable
+    3.Obsever     与Observable一起使用
+    4.Subscriber  与Flowable一起使用   
+    5.just        将单个数据或多个数据源转为一个observable
+    6.map         对序列中的observable通过一个指定自定义函数转化为一个新类型的Observable
+    7.zip         将多个Observable组装成一个Observable发送
+    8.disposable   将多个Observable管理在一起，防止泄露
+    9.defer        在观察者订阅之前不创建这个Observable(赋值都会在订阅后进行)，为每一个观察者创建一个新的Observable
+    10.take        只发射前面的x项数据
+    11.timer        延迟发射
+    12.interval     定时发射，类似秒表
+    13.single       发射单一事件的Observable
+    14.completable  忽略onNext事件的订阅，只关注成功和失败
+    15.reduce       算法工具，对一个序列通过指定函数两两运算
+    16.buffer       缓存的概念，从一个数据源拿出几项打包发射
+    17.skip         跳过前面的x项数据
    ```
+    [操作符说明](https://www.zhihu.com/question/32209660?sort=created)另外一个比较全面的Rxjava操作符说明
