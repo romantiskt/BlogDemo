@@ -28,5 +28,8 @@
              -> ReplaySubject    无论怎样，都会发射全部数据
              -> AsyncSubject     只会发送最后一个,而且需要调用 onComplete()才会发射
              -> BehaviorSubject  会从订阅的最近的上一个开始发射数据
+    20.ConnectableObservable    ConnectableObservable 和connect联合使用  connect会触发ConnectableObservable发射数据
+    21.connect       并且只会发射 connect()之后的数据；
+    22.replay       为缓存多少个事件 即使事件已经发射完  也还是可以通过订阅接收到事件
    ```
     [操作符说明](https://www.zhihu.com/question/32209660?sort=created)另外一个比较全面的Rxjava操作符说明
