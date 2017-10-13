@@ -31,5 +31,8 @@
     20.ConnectableObservable    ConnectableObservable 和connect联合使用  connect会触发ConnectableObservable发射数据
     21.connect       并且只会发射 connect()之后的数据；
     22.replay       为缓存多少个事件 即使事件已经发射完  也还是可以通过订阅接收到事件
+    23.concat       有序的组合多个observable
+    24.concatMap    有序的将一个序列逐个展开，在其中可进行数据源类型的变换操作
+    25.flatMap      无序的将一个序列逐个展开，在其中可进行数据源类型的变换操作
    ```
     [操作符说明](https://www.zhihu.com/question/32209660?sort=created)另外一个比较全面的Rxjava操作符说明
