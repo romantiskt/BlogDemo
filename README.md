@@ -14,7 +14,7 @@
     7.zip           将多个Observable组装成一个Observable发送
     8.disposable    将多个Observable管理在一起，防止泄露
     9.defer         在观察者订阅之前不创建这个Observable(赋值都会在订阅后进行)，为每一个观察者创建一个新的Observable
-    10.take         只发射前面的x项数据
+    10.take         只发射前面的x项数据 此外还有takelast  takefitst
     11.timer        延迟发射
     12.interval     定时发射，类似秒表
     13.single       发射单一事件的Observable
@@ -35,5 +35,6 @@
     24.concatMap    有序的将一个序列逐个展开，在其中可进行数据源类型的变换操作
     25.flatMap      无序的将一个序列逐个展开，在其中可进行数据源类型的变换操作
     26.merge        将多个Observable合并为一个Observable，即将多个事件源转为一个Observable发射
+    27.distinct     会过滤掉重复的数据源
    ```
     [操作符说明](https://www.zhihu.com/question/32209660?sort=created)另外一个比较全面的Rxjava操作符说明
