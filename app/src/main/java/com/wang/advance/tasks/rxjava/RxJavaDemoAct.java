@@ -10,6 +10,7 @@ import com.wang.advance.tasks.rxjava.operators.CommonUtil;
 import com.wang.advance.tasks.rxjava.operators.CompletableUtil;
 import com.wang.advance.tasks.rxjava.operators.ConcatUtil;
 import com.wang.advance.tasks.rxjava.operators.ConnectableUtil;
+import com.wang.advance.tasks.rxjava.operators.DebounceUtil;
 import com.wang.advance.tasks.rxjava.operators.DisposUtil;
 import com.wang.advance.tasks.rxjava.operators.DisposableUtil;
 import com.wang.advance.tasks.rxjava.operators.DistinctUtil;
@@ -49,7 +50,7 @@ public class RxJavaDemoAct extends BaseAct {
             "Common", "Map", "Zip", "Disposable", "Disposable管理", "Take",
             "Timer", "Interval", "Single", "Completable", "Reduce", "Buffer",
             "Filter", "Skip", "Scan", "Subject", "Connectable", "Concat", "Merge",
-            "Distinct","Last","Throttle"
+            "Distinct","Last","Throttle","Debounce"
     };
     UtilContracts utilContracts;
 
@@ -144,6 +145,9 @@ public class RxJavaDemoAct extends BaseAct {
                     break;
                 case "Throttle":
                     new ThrottleUtil().util(mTvShow);
+                    break;
+                case "Debounce":
+                    new DebounceUtil().util(mTvShow);
                     break;
             }
         }

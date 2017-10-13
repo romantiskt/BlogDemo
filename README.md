@@ -38,5 +38,7 @@
     27.distinct     会过滤掉重复的数据源
     28.last         只会发射最后一个数据源，带参数则是提供默认值
     29.Throttle     在每次事件触发后的一定时间间隔内丢弃新的事件
+    30.switchMap    当源Observable发射一个数据项 onNext(x1)时，这个时候还没被订阅接收，重新onNext(X2)时，x1就会被抛弃掉(例如搜索框的实现，输入文字改变联网获取数据)
+    31.debounce     当源Observable在一段时间间隔内不再有新的数据被发射时，才会真实发射数据，如果有新的数据发射，则这个时间间隔会被重置
    ```
     [操作符说明](https://www.zhihu.com/question/32209660?sort=created)另外一个比较全面的Rxjava操作符说明
