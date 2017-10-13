@@ -43,4 +43,4 @@
     32.window       和buffer的不同之处在于，它处理过后发射的是observable,(如果碰到源Observable多线程情况下，window(x),会有失误的情况，如x=3,可能会发送2项或3项)
     33.delay        延迟发射Observable的结果
    ```
-    [操作符说明](https://www.zhihu.com/question/32209660?sort=created)另外一个比较全面的Rxjava操作符说明
+    参考：[操作符说明](https://www.zhihu.com/question/32209660?sort=created)另外一个比较全面的Rxjava操作符说明
