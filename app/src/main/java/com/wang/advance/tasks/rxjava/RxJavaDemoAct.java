@@ -27,6 +27,7 @@ import com.wang.advance.tasks.rxjava.operators.SubjectUtil;
 import com.wang.advance.tasks.rxjava.operators.TakeUtil;
 import com.wang.advance.tasks.rxjava.operators.ThrottleUtil;
 import com.wang.advance.tasks.rxjava.operators.TimerUtil;
+import com.wang.advance.tasks.rxjava.operators.WindowUtil;
 import com.wang.advance.tasks.rxjava.operators.ZipUtil;
 import com.wang.advance.tasks.widget.low.dialog.ListDialog;
 import com.wang.tools.base.BaseAct;
@@ -50,7 +51,7 @@ public class RxJavaDemoAct extends BaseAct {
             "Common", "Map", "Zip", "Disposable", "Disposable管理", "Take",
             "Timer", "Interval", "Single", "Completable", "Reduce", "Buffer",
             "Filter", "Skip", "Scan", "Subject", "Connectable", "Concat", "Merge",
-            "Distinct","Last","Throttle","Debounce"
+            "Distinct","Last","Throttle","Debounce","Window"
     };
     UtilContracts utilContracts;
 
@@ -148,6 +149,9 @@ public class RxJavaDemoAct extends BaseAct {
                     break;
                 case "Debounce":
                     new DebounceUtil().util(mTvShow);
+                    break;
+                case "Window":
+                    new WindowUtil().util(mTvShow);
                     break;
             }
         }
