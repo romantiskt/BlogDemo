@@ -34,5 +34,6 @@
     23.concat       有序的组合多个observable
     24.concatMap    有序的将一个序列逐个展开，在其中可进行数据源类型的变换操作
     25.flatMap      无序的将一个序列逐个展开，在其中可进行数据源类型的变换操作
+    26.merge        将多个Observable合并为一个Observable，即将多个事件源转为一个Observable发射
    ```
     [操作符说明](https://www.zhihu.com/question/32209660?sort=created)另外一个比较全面的Rxjava操作符说明
