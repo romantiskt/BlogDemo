@@ -41,6 +41,6 @@ RxJava操作符的练习
 *  __switchMap__    当源Observable发射一个数据项 onNext(x1)时，这个时候还没被订阅接收，重新onNext(X2)时，x1就会被抛弃掉(例如搜索框的实现，输入文字改变联网获取数据)
 *  __debounce__     当源Observable在一段时间间隔内不再有新的数据被发射时，才会真实发射数据，如果有新的数据发射，则这个时间间隔会被重置
 *  __window__       和buffer的不同之处在于，它处理过后发射的是observable,(如果碰到源Observable多线程情况下，window(x),会有失误的情况，如x=3,可能会发送2项或3项)
-*  __delay__        延迟发射Observable的结果
+*  ___delay___        延迟发射Observable的结果
 
     参考：[操作符说明](https://www.zhihu.com/question/32209660?sort=created)另外一个比较全面的Rxjava操作符说明
