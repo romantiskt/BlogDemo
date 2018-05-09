@@ -4,8 +4,8 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
     defaultConfig {
-        applicationId "com.wang.homeexercise"
-        minSdkVersion 15
+        applicationId "com.wang.advance"
+        minSdkVersion 16
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -38,4 +38,5 @@ dependencies {
     compile project(':tools')
     def commonDependencies = rootProject.ext.commonDependencies
     annotationProcessor commonDependencies.butterKnifeCompiler
+    compile "com.facebook.react:react-native:+"
 }

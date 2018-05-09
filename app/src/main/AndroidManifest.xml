@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.wang.advance"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wang.advance">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:name=".App"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.wang.advance.MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".tasks.widget.enter.WidgetAllListAct"/>
-        <activity android:name=".tasks.widget.enter.ShowSingleWidgetAct"/>
-        <activity android:name=".tasks.rxjava.RxJavaDemoAct"/>
+        <activity android:name=".tasks.widget.enter.WidgetAllListAct" />
+        <activity android:name=".tasks.widget.enter.ShowSingleWidgetAct" />
+        <activity android:name=".tasks.rxjava.RxJavaDemoAct" />
+        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+        <activity
+            android:name=".tasks.rn.MyReactActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
     </application>
 
 </manifest>
