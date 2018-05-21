@@ -1,0 +1,61 @@
+{
+  "account_info": [
+    {
+      "detail_txt": "<font color=#999999>待充值 26800.00元</font>",
+      "icon": "https://cdn.jyblife.com/static/style/app/publish/img/yunying/icon/20161230/wode/my_jyk.png",
+      "title": "加油卡充值",
+      "url": "jtjr://myRecharge?mta_id=my_jy"
+    },
+    {
+      "detail_txt": "<font color=#ff6600>查看详情</font>",
+      "icon": "https://cdn.jyblife.com/static/style/app/publish/img/yunying/icon/20161230/wode/my_bn.png",
+      "title": "购物记录",
+      "url": "https://cdnsit.jyblife.com/product/baina/record.htm"
+    },
+    {
+      "detail_txt": "余额12595.55元",
+      "icon": "https://cdn.jyblife.com/static/style/app/publish/img/yunying/icon/20170306/lq.png",
+      "title": "零钱",
+      "url": "jtjr://change?login=true"
+    },
+    {
+      "detail_txt": "<font color=#ff6600>立即查看</font>",
+      "icon": "https://cdn.jyblife.com/static/style/app/publish/img/yunying/act_banner/20170531/piaoquanzx@3x.png",
+      "title": "票券中心",
+      "url": "https://cdnsit.jyblife.com/product/tickets_0510/coupon.html?login=true"
+    },
+    {
+      "detail_txt": "<font color=#ff6600>立即查看</font>",
+      "icon": "https://images.jyblife.com/icon/service/myfq_icon.png",
+      "title": "我的分期",
+      "url": "https://cdnsit.jyblife.com/product/instalment/index.html?login=true"
+    },
+    {
+      "detail_txt": "<font color=#ff6600>立即购买</font>",
+      "icon": "https://cdn.jyblife.com/static/style/app/publish/img/yunying/icon/20161230/wode/my_hdb.png",
+      "no_info": "1",
+      "title": "还贷宝",
+      "url": "https://cdn.jyblife.com/product/houseLoan/index.shtml?mta_id=my_hdb"
+    }
+  ],
+  "bank_cards": "已绑定2张",
+  "cash_balance": "12026839",
+  "coupon_amount": "0",
+  "financial_info": {
+    "cash_balance": "12026839",
+    "cash_balance_desc": "账户余额(元)",
+    "cash_balance_url": "jtjr://balance",
+    "detail_amount": "411073",
+    "detail_txt": "累计收益",
+    "isbought": "1",
+    "remind_desc": "别让资金睡觉哦",
+    "title": "收益套餐",
+    "total_amount": "4249652",
+    "total_amount_desc": "未满期总资金(元)",
+    "total_bonus": "411073",
+    "total_txt": "本金",
+    "url": "jtjr://myProfit"
+  },
+  "oil_card": "添加、删除、更换",
+  "set_password": 1
+}

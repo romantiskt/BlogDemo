@@ -39,4 +39,5 @@ dependencies {
     def commonDependencies = rootProject.ext.commonDependencies
     annotationProcessor commonDependencies.butterKnifeCompiler
     compile "com.facebook.react:react-native:+"
+    compile ("com.facebook.react:react-native:0.55.4") { force = true }//强制使用指定版本(解决本地版本和项目版本不兼容的情况)
 }
