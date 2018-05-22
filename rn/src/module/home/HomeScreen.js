@@ -1,5 +1,5 @@
 import React from 'react';
-import {StatusBar, Text, View} from 'react-native';
+import {Image, StatusBar, Text, View} from 'react-native';
 class HomeScreen extends React.Component {
     render() {
         return (
@@ -9,6 +9,7 @@ class HomeScreen extends React.Component {
                     barStyle="light-content"
                 />
                 <Text>wo shi zhu ye!</Text>
+
             </View>
         );
     }
