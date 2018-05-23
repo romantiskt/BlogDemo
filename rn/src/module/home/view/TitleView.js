@@ -8,15 +8,19 @@ class TitleView extends React.Component {
         return (
             <View>
                 <StatusBar
-                    barStyle="light-content"
+                    barStyle="dark-content"
+                    translucent={false}
                 />
                 <View style={styles.title_bar}>
                     <Image
                         source={require('../../../../image/mine/ic_default_avatar.png')}
                         style={styles.avatar}
                     />
-                    <Text style={styles.white_txt} >186****2868</Text>
-                    <Text style={[styles.white_txt,{flex:1,textAlign:'right',marginRight:15,fontSize:15}]}>设置</Text>
+                    <Text style={styles.txt}>186****2868</Text>
+                    <View style={{flex:1,flexDirection:'row',justifyContent:'flex-end'}}>
+                        <Image style={[styles.img_right]}
+                               source={require('../../../../image/home/navi_message.png')}></Image>
+                    </View>
                 </View>
             </View>
         );
@@ -25,27 +29,27 @@ class TitleView extends React.Component {
 
 const styles = StyleSheet.create({
     title_bar: {
-        backgroundColor:AppTheme.Color.commonMain,
+        backgroundColor: AppTheme.Color.white,
         height: 52,
         flexDirection: 'row',
         width: Device.Screen.width,
-        alignItems:'center'
+        alignItems: 'center'
     },
-    common_txt: {
-        color: 'blue',
-        width:100
+    avatar: {
+        width: 30,
+        height: 30,
+        marginLeft: 15
     },
-    avatar:{
-        width:30,
-        height:30,
-        marginLeft:15
-    },
-    white_txt:{
-        color:AppTheme.Color.white,
-        textShadowColor:AppTheme.Color.white,
-        fontSize:13,
-        marginLeft:10
+    txt: {
+        color: AppTheme.Color.txt_sub_h1,
+        fontSize: 13,
+        marginLeft: 10
 
+    },
+    img_right: {
+        marginRight: 15,
+        width: 22,
+        height: 22,
     }
 });
 export default TitleView

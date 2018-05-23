@@ -57,5 +57,22 @@
     "url": "jtjr://myProfit"
   },
   "oil_card": "添加、删除、更换",
-  "set_password": 1
+  "set_password": 1,
+  "profile": [
+    {
+      "caption": "使用兑换码",
+      "icon": "https://images.jyblife.com//test//index//hxsh3_1.png",
+      "url": "https://jybsit.jyblife.com/appH/exCdKeyPage?login=true"
+    },
+    {
+      "caption": "电子合同",
+      "icon": "https://images.jyblife.com//test//index//hxsh3_1.png",
+      "url": "https://cdnsit.jyblife.com/product/ssq/signList.html?login=true"
+    },
+    {
+      "caption": "邀请好友",
+      "icon": "https://images.jyblife.com//test//index//hxsh3_1.png",
+      "url": "https://cdn.jyblife.com/act/201705/invite/index.html?act_id=GhEpZBkvH3E=&login=true"
+    }
+  ]
 }

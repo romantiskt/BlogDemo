@@ -16,11 +16,18 @@ class HeadView extends React.Component {
                     </View>
                     <Text style={style.txt_sum}>234323.00</Text>
                 </View>
-                <Image
+                <Image style={{width:Device.Screen.width,height:15}}
                     source={require('../../../../image/mine/bg_arc.png')}
                 />
                 <View style={style.item_sub}>
-
+                    <View style={{width:Device.Screen.width/2,alignItems:'center'}}>
+                        <Text style={style.txt_sub_title}>累计收益(元)</Text>
+                        <Text style={style.txt_sub_value}>1234.00</Text>
+                    </View>
+                    <View style={{width:Device.Screen.width/2,alignItems:'center'}}>
+                        <Text style={style.txt_sub_title}>账户余额(元)</Text>
+                        <Text style={style.txt_sub_value}>232434.40</Text>
+                    </View>
                 </View>
             </View>
         )
@@ -34,7 +41,9 @@ const style = StyleSheet.create({
     },
     item_sub: {
         backgroundColor: AppTheme.Color.white,
-        height: 84
+        height: 84,
+        flexDirection:'row',
+        alignItems:'center'
     },
     txt_sum:{
         fontSize:33,
@@ -47,7 +56,17 @@ const style = StyleSheet.create({
     txt_title:{
         color:AppTheme.Color.txt_gray,
         fontSize:13.5
+    },
+    txt_sub_title:{
+        color:AppTheme.Color.txt_sub_h2,
+        fontSize:13.5
+    },
+    txt_sub_value:{
+        color:AppTheme.Color.commonMain,
+        fontSize:22,
+        marginTop:5
     }
+
 
 });
 export default HeadView

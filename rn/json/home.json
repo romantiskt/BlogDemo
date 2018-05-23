@@ -1,0 +1,493 @@
+{
+  "current_group": "high_value_fin",
+  "theme": [
+    {
+      "data": [
+        {
+          "__id": "1",
+          "act_url": "",
+          "desc": [
+            {
+              "__id": "2",
+              "act_url": "https://cdnsit.jyblife.com/act/20180300/333333/index.html?actId=GBEtIhkvCzQ=&90000.1",
+              "corner_id": "1",
+              "corner_style": "0",
+              "pic_url": "http://pic.qiantucdn.com/58pic/11/62/42/97G58PIC7hc.jpg!/fw/780/watermark/url/L3dhdGVybWFyay12MS4zLnBuZw==/align/center",
+              "status": "1",
+              "txt": "啊啊啊啊"
+            },
+            {
+              "__id": "3",
+              "act_url": "https://cdnsit.jyblife.com/act/20180300/333333/index.html?actId=GBEtIhkvCzQ=&ddd",
+              "corner_style": "0",
+              "pic_url": "https://images.jyblife.com/index/Function/redbag.png",
+              "status": "1",
+              "txt": "测试定时上线"
+            },
+            {
+              "__id": "4",
+              "act_url": "jtjr://makeOrder?prdType=2&prdId=247&prdValue=100000&mta_id=xptj_60",
+              "corner_style": "0",
+              "pic_url": "https://images.jyblife.com/index/Function/redbag.png",
+              "status": "1",
+              "txt": "60天7%"
+            },
+            {
+              "__id": "5",
+              "act_url": "https://cdnsit.jyblife.com/act/20180300/333333/index.html?actId=GBEtIhkvCzQ=&90000.1",
+              "corner_style": "0",
+              "pic_url": "http://7tszky.com1.z0.glb.clouddn.com/Fq-4isCzf_KhoK0MnIPwb9eD8wOq",
+              "status": "1",
+              "txt": "测试入口显示"
+            }
+          ],
+          "more_txt": "",
+          "opt_url": "",
+          "title": ""
+        },
+        {
+          "__id": "1",
+          "act_url": "",
+          "desc": [
+            {
+              "__id": "6",
+              "act_url": "https://cdnsit.jyblife.com/act/20180300/766fff/index.html?actId=GBEtIhkvF34=",
+              "corner_style": "0",
+              "pic_url": "https://images.jyblife.com/index/Function/redbag.png",
+              "status": "1",
+              "txt": "测试"
+            },
+            {
+              "__id": "7",
+              "act_url": "https://cdnsit.jyblife.com/product/houseLoan/index.shtml",
+              "corner_style": "1",
+              "pic_url": "https://images.jyblife.com/index/Function/redbag.png",
+              "status": "1",
+              "txt": "还贷宝"
+            },
+            {
+              "__id": "8",
+              "act_url": "https://cdnsit.jyblife.com/act/20180300/333edd/index.html?actId=GBEtIhkvC3g=&ss",
+              "corner_style": "0",
+              "pic_url": "https://images.jyblife.com/index/Function/redbag.png",
+              "status": "1",
+              "txt": "上架活动"
+            },
+            {
+              "__id": "9",
+              "act_url": "https://cdnsit.jyblife.com/product/carInsure/buy.shtml?prd_id=120&login=true&mta_id=ijsywb",                                                                                                                                                                         
+              "corner_style": "1",
+              "pic_url": "https://images.jyblife.com/index/Function/redbag.png",
+              "status": "1",
+              "txt": "驾驶意外宝"
+            }
+          ],
+          "more_txt": "",
+          "opt_url": "",
+          "title": ""
+        },
+        {
+          "__id": "1",
+          "act_url": "",
+          "desc": [
+            {
+              "__id": "11",
+              "act_url": "https://cdnsit.jyblife.com/product/conduct/pages/index.html",
+              "corner_style": "0",
+              "pic_url": "https://images.jyblife.com/index/Function/redbag.png",
+              "status": "1",
+              "txt": "开户入口"
+            },
+            {
+              "__id": "12",
+              "act_url": "https://jybsit.jyblife.com/noCard/index",
+              "corner_style": "0",
+              "pic_url": "https://images.jyblife.com/index/Function/redbag.png",
+              "status": "1",
+              "txt": "银行卡加油"
+            }
+          ],
+          "more_txt": "",
+          "opt_url": "",
+          "title": ""
+        },
+        {
+          "__id": "1",
+          "act_url": "",
+          "desc": [
+            {
+              "__id": "15",
+              "act_url": "https://cdnsit.jyblife.com/act/20180300/333333/index.html?actId=GBEtIhkvCzQ=",
+              "corner_style": "0",
+              "pic_url": "https://images.jyblife.com/index/Function/redbag.png",
+              "status": "1",
+              "txt": "测试"
+            },
+            {
+              "__id": "17",
+              "act_url": "https://cdnsit.jyblife.com/html/jsapi/index.html",
+              "corner_style": "1",
+              "pic_url": "http://mat.jtjr99.com/static/style/app/publish/img/yunying/app41_banner/20160927/xshd.png",
+              "status": "1",
+              "txt": "JSAPI"
+            }
+          ],
+          "more_txt": "",
+          "opt_url": "",
+          "title": ""
+        },
+        {
+          "__id": "1",
+          "act_url": "",
+          "desc": [
+            {
+              "__id": "18",
+              "act_url": "jtjr://makeOrder?prdType=2&prdId=50023&prdValue=300000",
+              "corner_style": "0",
+              "pic_url": "http://mat.jtjr99.com/static/style/app/publish/img/yunying/app41_banner/20160927/xshd.png",
+              "status": "1",
+              "txt": "安心计划"
+            },
+            {
+              "__id": "19",
+              "act_url": "https://cdnsit.jyblife.com/product/baina/detail.html?free_prd_id=516&channel_type=3",
+              "corner_style": "0",
+              "pic_url": "http://mat.jtjr99.com/static/style/app/publish/img/yunying/app41_banner/20160927/xshd.png",
+              "status": "1",
+              "txt": "分期严选"
+            },
+            {
+              "__id": "20",
+              "act_url": "https://cdnsit.jyblife.com/product/baina/detail.html?free_prd_id=24290&channel_type=3",                                                                                                                                  
+              "corner_style": "0",
+              "pic_url": "http://mat.jtjr99.com/static/style/app/publish/img/yunying/app41_banner/20160927/xshd.png",
+              "status": "1",
+              "txt": "分期京东"
+            },
+            {
+              "__id": "21",
+              "act_url": "https://cdnsit.jyblife.com/product/instalment/index.html",
+              "corner_style": "0",
+              "pic_url": "http://mat.jtjr99.com/static/style/app/publish/img/yunying/app41_banner/20160927/xshd.png",
+              "status": "1",
+              "txt": "我的分期"
+            }
+          ],
+          "more_txt": "",
+          "opt_url": "",
+          "title": ""
+        }
+      ],
+      "type": "3"
+    },
+    {
+      "data": [
+        {
+          "__id": 1,
+          "desc": [
+            {
+              "__id": 2,
+              "act_url": "https://cdnsit.jyblife.com/act/20180300/333edd/index.html?actId=GBEtIhkvC3g=&wss",
+              "pic_url": "https://images.jyblife.com/act/201712/sd/big.png",
+              "status": "1"
+            }
+          ]
+        }
+      ],
+      "type": "22"
+    },
+    {
+      "data": [
+        {
+          "__id": "1",
+          "desc": [
+            {
+              "__id": "2",
+              "act_url": "https://cdnsit.jyblife.com/act/201708/wechatmp/pages/index.html",
+              "memo": "每周送1000",
+              "pic_url": "https://images.jyblife.com/act/yunying/xugou/x.png",
+              "txt": "续购领红包"
+            },
+            {
+              "__id": "3",
+              "act_url": "https://cdnsit.jyblife.com/act/201708/wechatmp/pages/index.html",
+              "memo": "领4500元红包",
+              "pic_url": "https://images.jyblife.com/act/201710/10yuepingtai/1.png",
+              "txt": "长期满返"
+            },
+            {
+              "__id": "4",
+              "act_url": "https://cdnsit.jyblife.com/product/baina/detail.html?free_prd_id=243",
+              "memo": "预存600送100",
+              "pic_url": "https://images.jyblife.com/act/yunying/xugou/x.png",
+              "txt": "白拿百万油卡"
+            },
+            {
+              "__id": "5",
+              "act_url": "https://www.pgyer.com/nwkC",
+              "memo": "星巴克8折抢购",
+              "pic_url": "https://images.jyblife.com/act/201710/10yuepingtai/1.png",
+              "txt": "票券中心"
+            }
+          ]
+        }
+      ],
+      "type": "21"
+    },
+    {
+      "data": [
+        {
+          "__id": "1",
+          "desc": [
+            {
+              "__id": "2",
+              "act_url": "https://cdnsit.jyblife.com/act/20180300/333edd/index.html?actId=GBEtIhkvC3g=&dddd",
+              "opt_url": "https://cdnsit.jyblife.com/act/201801/report/pages/index.html?act_id=Gi8pZhkRLXE=&login=true",
+              "pic_url": "https://images.jyblife.com/banner/zhangdan.png",
+              "status": "1"
+            },
+            {
+              "__id": "3",
+              "act_url": "jtjr://change",
+              "opt_url": "jtjr://freeMall",
+              "pic_url": "https://images.jyblife.com/act/201710/gengxin/1.png",
+              "status": "1"
+            },
+            {
+              "__id": "4",
+              "act_url": "jtjr://prdSelect?type=1&prdValue=10000",
+              "opt_url": "",
+              "pic_url": "https://images.jyblife.com/act/201710/gengxin/2.png",
+              "status": "1"
+            }
+          ],
+          "more_txt": "",
+          "title": ""
+        }
+      ],
+      "type": "9"
+    },
+    {
+      "data": [
+        {
+          "__id": "1",
+          "desc": [
+            {
+              "__id": "2",
+              "act_url": "https://cdnsit.jyblife.com/act/201801/report/pages/index.html?act_id=Gi8pZhkRLXE=&login=true",
+              "pic_url": "https://images.jyblife.com/banner/nianhao.png",
+              "status": "1"
+            }
+          ]
+        }
+      ],
+      "type": "22"
+    },
+    {
+      "data": [
+        {
+          "__id": "1",
+          "desc": [
+            {
+              "__id": "2",
+              "act_url": "jtjr://prdSelect?type=1&prdValue=30000",
+              "corner_style": "3",
+              "corner_value": "今日限时限量特惠",
+              "memo": "团购低至8.8折",
+              "pic_url": "https://images.jyblife.com/index/Life_2%2B1/%E6%83%A0%E4%BA%AB%E7%94%9F%E6%B4%BB%E5%8C%BA1%E5%B7%A6%E4%BE%A7%E5%A4%A7%E5%9B%BE564x270.png",
+              "status": "1",
+              "txt": "我要加油"
+            },
+            {
+              "__id": "3",
+              "act_url": "https://jybsit.jyblife.com/ticket/index",
+              "corner_style": "3",
+              "corner_value": "星巴克大杯",
+              "memo": "充话费充流量",
+              "pic_url": "https://images.jyblife.com/index/Life_2%2B1/chongzhi.png",
+              "status": "1",
+              "txt": "手机充值"
+            },
+            {
+              "__id": "4",
+              "act_url": "https://cdnsit.jyblife.com/act/20180100/ddd20170105/index.html",
+              "corner_style": "3",
+              "corner_value": "免费办卡",
+              "memo": "消费分期不花钱",
+              "pic_url": "https://images.jyblife.com/test/index/hxsh1_1.png",
+              "status": "1",
+              "txt": "消费分期"
+            }
+          ],
+          "more_txt": "- 车主优惠有保障 -",
+          "title": "惠享<font color=#ff0000>生活</font>"
+        }
+      ],
+      "type": "23"
+    },
+    {
+      "data": [
+        {
+          "__id": "1",
+          "desc": [
+            {
+              "__id": "2",
+              "act_url": "jtjr://makeOrder?prdType=2&prdId=277&prdValue=500000",
+              "memo": "9.9折发售",
+              "pic_url": "https://images.jyblife.com/test/index/hxsh2_1.png",                                                                                                                                                                                 
+              "status": "1",
+              "txt": "网易严选"
+            },
+            {
+              "__id": "3",
+              "act_url": "https://jybsit.jyblife.com/ticket/index",
+              "memo": "匠心佳品",
+              "pic_url": "https://images.jyblife.com/test/index/hxsh2_2.png",
+              "status": "1",
+              "txt": "手机充值"
+            },
+            {
+              "__id": "4",
+              "act_url": "jtjr://makeOrder?prdType=2&prdId=277&prdValue=500000",
+              "memo": "红包抵折扣",
+              "pic_url": "https://images.jyblife.com/test/index/hxsh2_3.png",
+              "status": "1",
+              "txt": "我要加油"
+            },
+            {
+              "__id": "5",
+              "act_url": "jtjr://makeOrder?prdType=2&prdId=277&prdValue=500000",
+              "memo": "白菜价不包邮",
+              "pic_url": "https://images.jyblife.com/test/index/hxsh2_4.png",
+              "status": "1",
+              "txt": "9.9商品"
+            }
+          ]
+        }
+      ],
+      "type": "24"
+    },
+    {
+      "data": [
+        {
+          "__id": "1",
+          "desc": [
+            {
+              "__id": "2",
+              "act_url": "https://cdnsit.jyblife.com/product/huafei/index.shtml?login=true&mta_id=hfcz",
+              "corner_style": "1",
+              "corner_value": "",
+              "pic_url": "https://images.jyblife.com/test/index/hxsh3_2.png",
+              "status": "1",
+              "txt": "话费充值"
+            },
+            {
+              "__id": "3",
+              "act_url": "https://cdnsit.jyblife.com/product/huafei/index.shtml?login=true&mta_id=hfcz",
+              "corner_style": "2",
+              "corner_value": "战狼2",
+              "pic_url": "https://images.jyblife.com/test/index/hxsh3_1.png",
+              "status": "1",
+              "txt": "到店洗车"
+            },
+            {
+              "__id": "4",
+              "act_url": "https://cdnsit.jyblife.com/product/huafei/index.shtml?login=true&mta_id=hfcz",
+              "corner_style": "2",
+              "corner_value": "贵州茅台",
+              "pic_url": "https://images.jyblife.com/test/index/hxsh3_3.png",
+              "status": "1",
+              "txt": "优惠车险"
+            },
+            {
+              "__id": "5",
+              "act_url": "https://jybsit.jyblife.com/ticket/index",
+              "corner_style": "1",
+              "corner_value": "",
+              "pic_url": "https://images.jyblife.com/test/index/hxsh3_4.png",
+              "status": "1",
+              "txt": "违章代缴"
+            },
+            {
+              "__id": "6",
+              "act_url": "https://cdnsit.jyblife.com/product/huafei/index.shtml?login=true&mta_id=hfcz",
+              "corner_style": "2",
+              "corner_value": "",
+              "pic_url": "https://images.jyblife.com/test/index/hxsh3_5.png",                                                                                                                                                                              
+              "status": "1",
+              "txt": "房贷宝"
+            },
+            {
+              "__id": "7",
+              "act_url": "https://jybsit.jyblife.com/insure/index?mta_id=itcb",
+              "corner_style": "2",
+              "corner_value": "",
+              "pic_url": "https://images.jyblife.com/test/index/hxsh3_6.png",
+              "status": "1",
+              "txt": "停车宝"
+            },
+            {
+              "__id": "8",
+              "act_url": "https://cdnsit.jyblife.com/product/carInsure/buy.shtml?prd_id=120&login=true&mta_id=ijsywb",
+              "corner_style": "2",
+              "corner_value": "",
+              "pic_url": "https://images.jyblife.com/test/index/hxsh3_7.png",
+              "status": "1",
+              "txt": "驾驶意外宝"
+            },
+            {
+              "__id": "9",
+              "act_url": "https://cdnsit.jyblife.com/product/houseLoan/index.shtml",
+              "corner_style": "2",
+              "corner_value": "还贷",
+              "pic_url": "https://images.jyblife.com/test/index/hxsh3_7.png",
+              "status": "1",
+              "txt": "还款宝"
+            },
+            {
+              "__id": "10",
+              "act_url": "https://jybsit.jyblife.com/noCard/index",
+              "corner_style": "2",
+              "corner_value": "NoCard",
+              "pic_url": "https://images.jyblif",
+              "status": "1",
+              "txt": "银行卡加油"
+            }
+          ]
+        }
+      ],
+      "type": "25"
+    },
+    {
+      "data": [
+        {
+          "__id": "1",
+          "desc": [
+            {
+              "__id": "2",
+              "act_url": "https://cdnsit.jyblife.com/product/baina/detail.html?free_prd_id=542&mta_id=syrk",
+              "corner_id": "7542",
+              "pic_url": "https://images.jyblife.com/test/index/topic4.png",
+              "status": "1",
+              "txt": "松下（Panasonic）扫地机器人吸尘器MC-WRC53W智能清扫系列"
+            },
+            {
+              "__id": "3",
+              "act_url": "https://cdnsit.jyblife.com/product/baina/detail.html?free_prd_id=543&mta_id=syrk",
+              "corner_id": "7543",
+              "pic_url": "https://images.jyblife.com/test/index/topic3.png",
+              "status": "1",
+              "txt": "飞利浦（PHILIPS）50PUF6061/T3 50英寸 64位十一核4K超高清"
+            },
+            {
+              "__id": "4",
+              "act_url": "https://cdnsit.jyblife.com/product/baina/detail.html?free_prd_id=544&mta_id=syrk",
+              "corner_id": "7544",
+              "pic_url": "https://images.jyblife.com/test/index/topic2.png"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}                                                                                  
