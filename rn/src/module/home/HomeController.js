@@ -4,12 +4,13 @@ import {createBottomTabNavigator} from 'react-navigation';
 import HomeScreen from './HomeScreen';
 import SettingsScreen from '../Setting/SettingsScreen';
 import MineScreen from '../mine/MineScreen';
+import DemoScreen from "../demo/DemoScreen";
 
 export default createBottomTabNavigator(
     {
         首页: HomeScreen,
         我的:MineScreen,
-        Settings: SettingsScreen,
+        demo:DemoScreen,
     },
     {
         navigationOptions: ({navigation}) => ({
@@ -27,6 +28,11 @@ export default createBottomTabNavigator(
                         style={[{height: 24, width: 24}, {tintColor: tintColor}]}
                     />;
                 }else if(routeName==='我的'){
+                    return <Image
+                        source={require('../../../image/home/tab_mine_selected.png')}
+                        style={[{height: 24, width: 24}, {tintColor: tintColor}]}
+                    />;
+                }else if(routeName==='demo'){
                     return <Image
                         source={require('../../../image/home/tab_mine_selected.png')}
                         style={[{height: 24, width: 24}, {tintColor: tintColor}]}
