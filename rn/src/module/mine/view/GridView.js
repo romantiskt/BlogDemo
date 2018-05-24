@@ -8,7 +8,7 @@ class GridView extends React.Component {
     // noinspection JSAnnotator
     renderProduct(product: Object, index: number, isBreak: bool) {
         return (
-            <View style={[style.grid_item]}>
+            <View key={index} style={[style.grid_item]}>
                 <View style={{flex:1,alignItems:'center',flexDirection:'row'}}>
                     <Image style={style.img} source={{uri: product.icon}}></Image>
                     <View style={{marginLeft:14,flexDirection:'column'}}>

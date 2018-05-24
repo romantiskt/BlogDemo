@@ -12,6 +12,7 @@ const AppTheme = {
         txt_sub_h2:'#999999',//这里的颜色是 RGBA 排列
         txt_sub_h1:'#333333',//这里的颜色是 RGBA 排列
         bg:'#F5F5F5',//这里的颜色是 RGBA 排列
+        bg_home:'#f8f9fa',//这里的颜色是 RGBA 排列
     },
 
 }

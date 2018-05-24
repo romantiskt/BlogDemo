@@ -40,7 +40,7 @@ class ItemsView extends React.Component {
     renderItem(element: Object, index: number) {
         let icon = this.setImg(index);
         return (
-            <View style={[style.out,{marginTop:index==3?10:0.7}]}>
+            <View key={index} style={[style.out,{marginTop:index==3?10:0.7}]}>
                 <Image style={style.img_left}
                        source={element.img?{uri:element.img}:icon}
                 />

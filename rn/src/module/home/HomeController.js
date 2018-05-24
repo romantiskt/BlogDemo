@@ -7,8 +7,8 @@ import MineScreen from '../mine/MineScreen';
 
 export default createBottomTabNavigator(
     {
-        Home: HomeScreen,
-        Mine:MineScreen,
+        首页: HomeScreen,
+        我的:MineScreen,
         Settings: SettingsScreen,
     },
     {
@@ -16,7 +16,7 @@ export default createBottomTabNavigator(
             tabBarIcon: ({focused, tintColor}) => {
                 const {routeName} = navigation.state;
                 let iconName;
-                if (routeName === 'Home') {
+                if (routeName === '首页') {
                     return <Image
                         source={require('../../../image/home/tab_home_selected.png')}
                         style={[{height: 24, width: 24}, {tintColor: tintColor}]}
@@ -26,7 +26,7 @@ export default createBottomTabNavigator(
                         source={require('../../../image/home/tab_mine_selected.png')}
                         style={[{height: 24, width: 24}, {tintColor: tintColor}]}
                     />;
-                }else if(routeName==='Mine'){
+                }else if(routeName==='我的'){
                     return <Image
                         source={require('../../../image/home/tab_mine_selected.png')}
                         style={[{height: 24, width: 24}, {tintColor: tintColor}]}
