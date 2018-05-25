@@ -10,10 +10,14 @@ class DemoScreen extends React.Component {
                 <Text style={style.titlebar}>demo</Text>
 
                 <TouchableHighlight >
-                    <Text style={style.button_redux}>redux</Text>
+                    <Text style={style.button_redux}  onPress={() =>this._onPressButton() }>redux</Text>
                 </TouchableHighlight>
             </View>
         );
+    }
+
+    _onPressButton() {
+        this.props.navigation.navigate('reduxdemo')
     }
 }
 

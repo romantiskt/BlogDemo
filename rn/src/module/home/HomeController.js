@@ -39,10 +39,17 @@ export default createBottomTabNavigator(
                     />;
                 }
             },
+
         }),
+
         tabBarOptions: {
             activeTintColor: 'tomato',
             inactiveTintColor: 'gray',
+            labelStyle: {
+                fontSize: 11,
+            },
         },
+        initialRouteName: '我的',
+
     }
 );
