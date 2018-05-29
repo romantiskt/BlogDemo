@@ -1,24 +1,28 @@
 import {createStackNavigator} from "react-navigation";
 import HomeController from "./HomeController";
-import SettingsScreen from "../Setting/SettingsScreen";
+import DemoList from "../demo/DemoList";
 import React from "react";
-
+import {Provider} from "react-redux";
+import configureStore from "../../redux/stores/Store";
+const store = configureStore();
 const Navigator = createStackNavigator(
     {
         Tab: {screen: HomeController},
-        Product: {screen: SettingsScreen}
+        Product: {screen: DemoList}
     },
     {
-        initialRouteName:'Tab',
+        initialRouteName: 'Tab',
         mode: 'card',
-        headerMode:'none'
+        headerMode: 'none'
     });
 
 export default class App extends React.Component {
 
     render() {
         return (
-            <Navigator />
+            <Provider store={store}>
+                <Navigator/>
+            </Provider>
         );
     }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, View} from 'react-native';
 import {createStackNavigator} from "react-navigation";
-import ReduxDemo from "../demo/redux/ReduxDemo";
+import ReduxDemo from "./redux/ReduxDemo";
 
 
 class SettingsScreen extends React.Component {
@@ -13,13 +13,13 @@ class SettingsScreen extends React.Component {
         );
     }
 }
-
-export default createStackNavigator(
+const navigator = createStackNavigator(
     {
-        setting: {screen: SettingsScreen},
+        // setting: {screen: SettingsScreen},
         reduxdemo: {screen: ReduxDemo}
     },
     {
         mode: 'card',
         headerMode: 'none'
     });
+export default navigator

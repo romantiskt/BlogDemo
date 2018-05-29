@@ -2,7 +2,7 @@ import React from 'react';
 import {Image, Text, View} from 'react-native';
 import {createBottomTabNavigator} from 'react-navigation';
 import HomeScreen from './HomeScreen';
-import SettingsScreen from '../Setting/SettingsScreen';
+import SettingsScreen from '../demo/DemoList';
 import MineScreen from '../mine/MineScreen';
 import DemoScreen from "../demo/DemoScreen";
 
