@@ -8,7 +8,13 @@
  
 
 ## [React Native](https://github.com/romantiskt/BlogDemo/tree/master/doc/ReactNative.md)
-   此项目包含了小白入门react native的一些必要例子，例如代码语法，ui处理，交互逻辑等
+   从这里你可以学到：
+*  es6语法
+*  react基本用法
+*  ui处理
+*  交互逻辑处理
+*  原生通信
+*  [从源代码编译React Native](https://github.com/romantiskt/BlogDemo/tree/master/doc/从源代码编译React Native.md)
 
 ## Widget
   包含一些自定义view的小demo
