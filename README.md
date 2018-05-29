@@ -14,7 +14,7 @@
 *  ui处理
 *  交互逻辑处理
 *  原生通信
-*  [从源代码编译React Native](https://github.com/romantiskt/BlogDemo/tree/master/doc/从源代码编译React Native.md)
+*  [RxJava](https://github.com/romantiskt/BlogDemo/tree/master/doc/react_build.md) 
 
 ## Widget
   包含一些自定义view的小demo
