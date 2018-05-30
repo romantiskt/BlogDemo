@@ -13,3 +13,5 @@
 /net/build/
 .gitignore
 node_modules/
+rn/.idea/inspectionProfiles/
+rn/.vscode/
