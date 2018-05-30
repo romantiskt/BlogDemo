@@ -27,6 +27,7 @@ class DemoScreen extends React.Component {
                 <Button  style={style.button_redux} onPress={() => this.clickSaveToFile()} text='save string to file'/>
                 <Button  style={style.button_redux} onPress={() => this.clickGetValueForFile()} text='get string for
                         file'/>
+                <Button style={style.button_redux} onPress={()=>this.clickNativeWidget()} text='native widget'/>
                 <Text style={style.txt}>{this.state.text ? this.state.text : 'no login'}  </Text>
             </View>
         );
@@ -62,6 +63,9 @@ class DemoScreen extends React.Component {
 
     }
 
+    clickNativeWidget() {
+        this.props.navigation.navigate('widget')
+    }
 }
 
 const style = StyleSheet.create({

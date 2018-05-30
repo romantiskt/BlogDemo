@@ -2,6 +2,7 @@ import React from 'react';
 import {Text, View} from 'react-native';
 import {createStackNavigator} from "react-navigation";
 import ReduxDemo from "./redux/ReduxDemo";
+import WidgetShowScreen from "./widget/WidgetShowScreen";
 
 
 class SettingsScreen extends React.Component {
@@ -13,10 +14,11 @@ class SettingsScreen extends React.Component {
         );
     }
 }
+
 const navigator = createStackNavigator(
     {
         // setting: {screen: SettingsScreen},
-        reduxdemo: {screen: ReduxDemo}
+        reduxdemo: {screen: ReduxDemo},
     },
     {
         mode: 'card',
