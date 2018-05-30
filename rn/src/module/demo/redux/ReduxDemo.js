@@ -3,7 +3,7 @@ import {Text, StyleSheet, TouchableHighlight, View} from "react-native";
 import {connect} from "react-redux";
 import AppTheme from "../../../base/util/Theme";
 import Device from "../../../base/util/Device";
-import {login} from '../../../redux/actions/LoginAction';
+import {login} from './LoginAction';
 import Log from "../../../base/util/Log";
 
 class ReduxDemo extends React.Component {

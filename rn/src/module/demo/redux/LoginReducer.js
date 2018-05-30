@@ -1,5 +1,5 @@
 
-import * as TYPES from '../../ActionTypes';
+import * as TYPES from './ActionTypes';
 
 /**
  * 这里可以初始化一个默认的实体类

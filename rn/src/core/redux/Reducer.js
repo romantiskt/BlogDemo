@@ -5,7 +5,7 @@
  */
 
 import { combineReducers } from 'redux';
-import LoginReducer from './tasks/LoginReducer';
+import LoginReducer from '../../module/demo/redux/LoginReducer';
 
 //这里面必须要有初始数据 - 否则报错  
 const rootReducer = combineReducers({

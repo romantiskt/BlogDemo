@@ -3,8 +3,8 @@ import HomeController from "./HomeController";
 import DemoList from "../demo/DemoList";
 import React from "react";
 import {Provider} from "react-redux";
-import configureStore from "../../redux/stores/Store";
-const store = configureStore();
+import createStoreforMiddle from "../../core/redux/Store";
+const store = createStoreforMiddle();
 const Navigator = createStackNavigator(
     {
         Tab: {screen: HomeController},

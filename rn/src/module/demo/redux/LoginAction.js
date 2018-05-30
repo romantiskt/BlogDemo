@@ -1,4 +1,4 @@
-import * as TYPES from '../ActionTypes';
+import * as TYPES from './ActionTypes';
 
 
 export function login(phone) {

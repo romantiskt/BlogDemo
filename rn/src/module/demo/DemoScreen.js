@@ -20,7 +20,7 @@ class DemoScreen extends React.Component {
                 <Text style={style.titlebar}>demo list</Text>
 
                 <TouchableHighlight >
-                    <Text style={style.button_redux}  onPress={() =>this._onPressButton() }>redux demo</Text>
+                    <Text style={style.button_redux}  onPress={() =>this._onPressButton() }>redux </Text>
                 </TouchableHighlight>
 
                 <Text style={style.txt}>{this.state.text ? this.state.text : 'no login'}  </Text>
