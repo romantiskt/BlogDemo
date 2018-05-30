@@ -23,14 +23,7 @@ public class MyReactActivity extends Activity implements DefaultHardwareBackBtnH
         super.onCreate(savedInstanceState);
 
         mReactRootView = new ReactRootView(this);
-        mReactInstanceManager = ReactInstanceManager.builder()
-                .setApplication(getApplication())
-                .setBundleAssetName("index.bundle")
-                .setJSMainModulePath("index")
-                .addPackage(new MainReactPackage())
-                .setUseDeveloperSupport(BuildConfig.DEBUG)
-                .setInitialLifecycleState(LifecycleState.RESUMED)
-                .build();
+        mReactInstanceManager = ReactManager.getInstance();
 
         // 注意这里的MyReactNativeApp必须对应“index.android.js”中的
         // “AppRegistry.registerComponent()”的第一个参数

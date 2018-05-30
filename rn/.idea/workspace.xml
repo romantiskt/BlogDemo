@@ -17,21 +17,53 @@
       <file leaf-file-name="DemoScreen.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/module/demo/DemoScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="22" column="98" lean-forward="false" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Button.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/base/widget/Button.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/react-native-swiper/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="93" column="19" lean-forward="false" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Container.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/module/home/Container.js">
+      <file leaf-file-name="Theme.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/util/Theme.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/native/Sp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Store.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Store.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/core/redux/Store.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -54,6 +86,16 @@
               <folding>
                 <element signature="e#1#52#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Toast.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/native/Toast.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,12 +110,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reducer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/redux/Reducer.js">
+      <file leaf-file-name="ReduxDemo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/module/demo/redux/ReduxDemo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="330">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,6 +140,11 @@
       <find>grid_item</find>
       <find>style</find>
       <find>SettingsScreen</find>
+      <find>_prepareTextProps</find>
+      <find>backgroundColorPre</find>
+      <find>buttonText</find>
+      <find>type</find>
+      <find>button_redux</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;&quot;</replace>
@@ -104,9 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/module/home/App.js" />
-        <option value="$PROJECT_DIR$/src/module/home/SettingsScreen.js" />
-        <option value="$PROJECT_DIR$/src/module/mine/mine.js" />
         <option value="$PROJECT_DIR$/src/base/index.js" />
         <option value="$PROJECT_DIR$/src/package.json.js" />
         <option value="$PROJECT_DIR$/src/package.json" />
@@ -154,6 +200,9 @@
         <option value="$PROJECT_DIR$/src/redux/stores/Store.js" />
         <option value="$PROJECT_DIR$/src/redux/Store.js" />
         <option value="$PROJECT_DIR$/src/module/home/Container.js" />
+        <option value="$PROJECT_DIR$/src/core/native/Toast.js" />
+        <option value="$PROJECT_DIR$/src/core/native/Sp.js" />
+        <option value="$PROJECT_DIR$/src/base/widget/Button.js" />
         <option value="$PROJECT_DIR$/src/module/demo/DemoScreen.js" />
       </list>
     </option>
@@ -176,9 +225,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1593" />
-    <option name="y" value="-96" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1490" />
+    <option name="y" value="-69" />
     <option name="width" value="1855" />
     <option name="height" value="1058" />
   </component>
@@ -223,14 +272,13 @@
               <item name="rn" type="b2602c69:ProjectViewProjectNode" />
               <item name="rn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rn" type="b2602c69:ProjectViewProjectNode" />
               <item name="rn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rn" type="b2602c69:ProjectViewProjectNode" />
@@ -244,14 +292,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="module" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rn" type="b2602c69:ProjectViewProjectNode" />
@@ -321,15 +361,15 @@
       <workItem from="1527039146824" duration="19046000" />
       <workItem from="1527127028315" duration="20372000" />
       <workItem from="1527213589037" duration="6790000" />
-      <workItem from="1527644099242" duration="1643000" />
+      <workItem from="1527644099242" duration="8535000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84502000" />
+    <option name="totallyTimeSpent" value="91394000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-158" width="1855" height="1058" extended-state="6" />
+    <frame x="1490" y="-69" width="1855" height="1058" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -364,10 +404,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/base/network/Request.js" />
-    <entry file="file://$PROJECT_DIR$/src/base/network/Network.js" />
-    <entry file="file://$PROJECT_DIR$/src/base/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/package.json.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/app/base/util/index.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/app/base/util/Device.js" />
     <entry file="file://$PROJECT_DIR$/src/base/util/index.js" />
@@ -428,13 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/util/Theme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -596,28 +625,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/module/demo/redux/ReduxDemo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/module/demo/redux/LoginReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module/home/HomeScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="100" column="60" lean-forward="false" selection-start-line="100" selection-start-column="60" selection-end-line="100" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -629,22 +640,6 @@
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module/demo/DemoList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module/demo/DemoScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="22" column="98" lean-forward="false" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,6 +657,84 @@
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
             <element signature="e#1#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module/demo/DemoList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module/demo/redux/ReduxDemo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/native/Toast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module/home/HomeScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="100" column="60" lean-forward="false" selection-start-line="100" selection-start-column="60" selection-end-line="100" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/native/Sp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/util/Theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native-swiper/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="93" column="19" lean-forward="false" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module/demo/DemoScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/widget/Button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#81#0" expanded="true" />
           </folding>
         </state>
       </provider>

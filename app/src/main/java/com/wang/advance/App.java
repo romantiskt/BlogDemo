@@ -14,14 +14,19 @@ import com.wang.tools.net.ApiService;
  * 描述:
  */
 public class App extends Application {
+    private static App instance = null;
     @Override
     public void onCreate() {
         super.onCreate();
+        instance = this;
         initPlugin();
     }
 
     private void initPlugin() {
         CommonEngine.init(this);
         ApiService.setBaseUrl(ApiConfigs.BASE_URL);
+    }
+    public static synchronized App getInstance() {
+        return instance;
     }
 }
