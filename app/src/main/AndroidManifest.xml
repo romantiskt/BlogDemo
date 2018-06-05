@@ -20,11 +20,23 @@
         <activity android:name=".tasks.widget.enter.WidgetAllListAct" />
         <activity android:name=".tasks.widget.enter.ShowSingleWidgetAct" />
         <activity android:name=".tasks.rxjava.RxJavaDemoAct" />
+        <activity android:name=".tasks.nativ.NativeTestAct" />
         <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
         <activity
             android:name=".tasks.rn.MyReactActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name="android.app.NativeActivity"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden">
+            <!-- Tell NativeActivity the name of our .so -->
+            <meta-data android:name="android.app.lib_name"
+                android:value="native-activity" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

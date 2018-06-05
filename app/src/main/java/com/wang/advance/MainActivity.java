@@ -1,9 +1,11 @@
 package com.wang.advance;
 
+import android.app.NativeActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.wang.advance.tasks.nativ.NativeTestAct;
 import com.wang.advance.tasks.rn.MyReactActivity;
 import com.wang.advance.tasks.rxjava.RxJavaDemoAct;
 import com.wang.advance.tasks.widget.enter.WidgetAllListAct;
@@ -44,7 +46,7 @@ public class MainActivity extends BaseAct {
         mTv.setmDatas(D);
     }
 
-    @OnClick({ R.id.btn_widget,R.id.btn_rxjava,R.id.btn_rn})
+    @OnClick({ R.id.btn_widget,R.id.btn_rxjava,R.id.btn_rn,R.id.btn_app_native,R.id.btn_native})
     void click(View view) {
         switch (view.getId()) {
             case R.id.btn_rn:
@@ -55,6 +57,12 @@ public class MainActivity extends BaseAct {
                 break;
             case R.id.btn_rxjava:
                 goAct(RxJavaDemoAct.class);
+                break;
+            case R.id.btn_app_native:
+                goAct(NativeActivity.class);
+                break;
+            case R.id.btn_native:
+                goAct(NativeTestAct.class);
                 break;
         }
     }
