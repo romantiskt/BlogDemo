@@ -38,6 +38,13 @@
         android:layout_marginTop="10dp"
         android:id="@+id/btn_native"
         />
+
+    <Button
+        style="@style/btn_normal"
+        android:text="open gl"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_open_gl"
+        />
     <com.wang.advance.tasks.widget.low.MultiLinesTextView
         android:id="@+id/text2"
         android:layout_width="wrap_content"

@@ -21,6 +21,7 @@
         <activity android:name=".tasks.widget.enter.ShowSingleWidgetAct" />
         <activity android:name=".tasks.rxjava.RxJavaDemoAct" />
         <activity android:name=".tasks.nativ.NativeTestAct" />
+        <activity android:name=".tasks.gl.OpenGLDemo" />
         <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
         <activity
             android:name=".tasks.rn.MyReactActivity"
