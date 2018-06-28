@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.wang.advance.tasks.gl.OpenGLDemo;
+import com.wang.advance.tasks.kotlin.KotlinAct;
 import com.wang.advance.tasks.nativ.NativeTestAct;
 import com.wang.advance.tasks.rn.MyReactActivity;
 import com.wang.advance.tasks.rxjava.RxJavaDemoAct;
@@ -44,10 +45,10 @@ public class MainActivity extends BaseAct {
         List<String> D = new ArrayList<>();
         D.add("Hello we are fjd fdfd fdj fjdjfj  ");
         D.add("World fdf ferfef erdfd ssfdfd  43434 43433333333333333333333333");
-        mTv.setmDatas(D);
+//        mTv.setmDatas(D);
     }
 
-    @OnClick({ R.id.btn_widget,R.id.btn_rxjava,R.id.btn_rn,R.id.btn_app_native,R.id.btn_native,R.id.btn_open_gl})
+    @OnClick({ R.id.btn_widget,R.id.btn_rxjava,R.id.btn_rn,R.id.btn_app_native,R.id.btn_native,R.id.btn_open_gl,R.id.btn_kotlin})
     void click(View view) {
         switch (view.getId()) {
             case R.id.btn_rn:
@@ -67,6 +68,9 @@ public class MainActivity extends BaseAct {
                 break;
             case R.id.btn_open_gl:
                 goAct(OpenGLDemo.class);
+                break;
+            case R.id.btn_kotlin:
+                startActivity(new Intent(this, KotlinAct.class));
                 break;
         }
     }

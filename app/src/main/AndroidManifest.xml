@@ -39,6 +39,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".tasks.kotlin.KotlinAct"/>
+        <activity android:name=".tasks.kotlin.RecyAct"/>
     </application>
 
 </manifest>

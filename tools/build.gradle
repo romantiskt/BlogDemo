@@ -58,7 +58,7 @@ dependencies {
     compile commonDependencies.logInterceptor
     compile commonDependencies.rxjavaAdapter
     compile commonDependencies.retrofitConverter
-
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
 //    compile commonDependencies.recycleViewAdapter
     compile commonDependencies.recyclerView
     compile('me.drakeet.multitype:multitype:3.3.0', {

@@ -10,7 +10,6 @@ ext {
     androidMinSdkVersion = 15
     androidTargetSdkVersion = 23
     androidCompileSdkVersion = 25
-
     //Libraries
     butterKnifeVersion = '8.8.1'
     rxJavaVersion = '2.1.3'

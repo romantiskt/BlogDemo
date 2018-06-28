@@ -1,5 +1,7 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
@@ -37,12 +39,16 @@ android {
             ]
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile project(':tools')
-    compile ("com.facebook.react:react-native:0.55.3")//强制使用指定版本(解决本地版本和项目版本不兼容的情况)
+    compile("com.facebook.react:react-native:0.55.3")//强制使用指定版本(解决本地版本和项目版本不兼容的情况)
     def commonDependencies = rootProject.ext.commonDependencies
-    annotationProcessor commonDependencies.butterKnifeCompiler
+    kapt commonDependencies.butterKnifeCompiler
 }
