@@ -55,6 +55,7 @@ dependencies {
     compile commonDependencies.rxAndroid
     compile commonDependencies.butterKnife
     compile commonDependencies.appcompatV7
+    compile commonDependencies.material
     compile commonDependencies.logInterceptor
     compile commonDependencies.rxjavaAdapter
     compile commonDependencies.retrofitConverter

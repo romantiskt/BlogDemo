@@ -36,6 +36,8 @@ ext {
             recyclerView       : "com.android.support:recyclerview-v7:${supportVersion}",
             logInterceptor     : "com.squareup.okhttp3:logging-interceptor:${logInterceptorVersion}",
 
+            material           : "com.android.support:design:${supportVersion}",
+
             recycleViewAdapter : "com.github.CymChad:BaseRecyclerViewAdapterHelper:${recycleAdapterVersion}",
     ]
 }
