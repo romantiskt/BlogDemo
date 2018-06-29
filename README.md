@@ -18,13 +18,17 @@
 *  ui处理
 *  交互逻辑处理
 *  原生通信
+*  redux
+*  Nagvator
 *  [从源代码编译ReactNative](https://github.com/romantiskt/BlogDemo/tree/master/doc/react_build.md) 
 
 ## Widget
   包含一些自定义view的小demo
-  
+ *  paint,canvans制作一些小控件
+ *  矩阵变换的一些处理
 ## Kotlin
   
 * 基本语法
 * java和kotlin互调
-* mvp的简单应用
+* mvp的应用
+* rxjava在kotlin中的应用
