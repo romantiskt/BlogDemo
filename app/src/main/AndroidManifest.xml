@@ -41,6 +41,7 @@
         </activity>
         <activity android:name=".tasks.kotlin.KotlinAct"/>
         <activity android:name=".tasks.kotlin.RecyAct"/>
+        <activity android:name=".tasks.kotlin.tasks.login.LoginAct"/>
     </application>
 
 </manifest>

@@ -5,12 +5,10 @@ import android.support.annotation.StringRes
 /**
  * Created by wangyang on 2018/6/28.下午4:56
  */
-interface BaseView {
+interface IBaseView {
     abstract fun showLoading()
 
     abstract fun hideLoading()
-
-    abstract fun openActivityOnTokenExpire()
 
     abstract fun onError(@StringRes resId: Int)
 
@@ -23,4 +21,5 @@ interface BaseView {
     abstract fun isNetworkConnected(): Boolean
 
     abstract fun hideKeyboard()
+
 }

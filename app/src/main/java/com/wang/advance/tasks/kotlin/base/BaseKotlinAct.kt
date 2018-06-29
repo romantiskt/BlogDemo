@@ -3,11 +3,12 @@ package com.wang.advance.tasks.kotlin.base
 import android.app.Fragment
 import android.app.ProgressDialog
 import android.content.Context
-import android.content.Intent
+import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
+import android.view.View
 import android.view.inputmethod.InputMethodManager
 import android.widget.TextView
 import android.widget.Toast
@@ -20,10 +21,30 @@ import com.wang.advance.tasks.kotlin.utils.NetworkUtils
 /**
  * Created by wangyang on 2018/6/27.下午5:45
  */
-open class BaseKotlinAct : AppCompatActivity(), BaseView {
+abstract class BaseKotlinAct : AppCompatActivity(), IBaseView {
     var TAG: String = this.javaClass.simpleName
     internal var mUnBinder: Unbinder? = null
     internal var mProgressDialog: ProgressDialog? = null
+
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        beforeInflateView()
+        val inflateLayoutId = inflateLayoutId()
+        if (inflateLayoutId is Int) {
+            setContentView(inflateLayoutId)
+        } else if (inflateLayoutId is View) {
+            //可对view进行一些公共的处理
+            setContentView(inflateLayoutId)
+        } else {
+            throw RuntimeException("inflate is illegitmacy")
+        }
+        afterInflateView()
+    }
+
+    open fun beforeInflateView() {}
+    open fun afterInflateView() {}
+    abstract fun inflateLayoutId(): Any
     /**
      * toast.("hello")
      * toast.("hello",Toast.LENGTH_SHORT)
@@ -47,6 +68,9 @@ open class BaseKotlinAct : AppCompatActivity(), BaseView {
         Log.d(tag, "[$tag]  $msg")
     }
 
+    /**
+     * 跳转
+     */
     open fun <T> go(clazz: Class<T>) {
         ActUtil.go(this, clazz)
     }
@@ -74,11 +98,7 @@ open class BaseKotlinAct : AppCompatActivity(), BaseView {
     }
 
     override fun hideLoading() {
-        if (mProgressDialog?.isShowing!!) mProgressDialog?.cancel() else mProgressDialog = null
-    }
-
-    override fun openActivityOnTokenExpire() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        if (mProgressDialog?.isShowing == true) mProgressDialog?.cancel() else mProgressDialog = null
     }
 
     override fun onError(resId: Int) {

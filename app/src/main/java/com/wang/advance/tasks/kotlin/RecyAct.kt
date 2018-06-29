@@ -10,13 +10,13 @@ import com.wang.advance.tasks.kotlin.base.BaseKotlinAct
  * Created by wangyang on 2018/6/27.下午7:51
  */
 class RecyAct : BaseKotlinAct() {
-    var unBinder: Unbinder? = null
+    override fun inflateLayoutId(): Any {
+        return R.layout.act_recy
+    }
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.act_recy)
-        unBinder = ButterKnife.bind(this)
-
+    override fun afterInflateView() {
+        super.afterInflateView()
+        setUnBinder(ButterKnife.bind(this))
     }
 
     fun initData(): List<String> {
@@ -27,10 +27,5 @@ class RecyAct : BaseKotlinAct() {
             mutableList.add("index_" + i++)
         }
         return mutableList
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        unBinder?.unbind()
     }
 }

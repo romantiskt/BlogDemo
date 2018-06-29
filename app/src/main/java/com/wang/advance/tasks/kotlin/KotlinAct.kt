@@ -9,21 +9,22 @@ import butterknife.OnClick
 import butterknife.Unbinder
 import com.wang.advance.R
 import com.wang.advance.tasks.kotlin.base.BaseKotlinAct
+import com.wang.advance.tasks.kotlin.tasks.login.LoginAct
 
 /**
  * Created by wangyang on 2018/6/28.下午3:37
  */
  class KotlinAct : BaseKotlinAct() {
-
-    var unbinder: Unbinder? = null;
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_kotlin_main)
-        unbinder = ButterKnife.bind(this)
-
+    override fun inflateLayoutId(): Any {
+       return R.layout.activity_kotlin_main
     }
 
-    @OnClick(R.id.tv_switch, R.id.tv_if, R.id.tv_recy)
+    override fun afterInflateView() {
+        super.afterInflateView()
+       setUnBinder(ButterKnife.bind(this))
+    }
+
+    @OnClick(R.id.tv_switch, R.id.tv_if, R.id.tv_recy,R.id.tv_login)
     fun onclick(view: View) {
         when (view.id) {
             R.id.tv_switch -> toast("hello world")
@@ -35,14 +36,13 @@ import com.wang.advance.tasks.kotlin.base.BaseKotlinAct
             R.id.tv_recy -> {
                 go(RecyAct::class.java)
             }
+            R.id.tv_login->{
+                go(LoginAct::class.java)
+            }
             else -> {
                 logger("no one is match")
             }
         }
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
-        unbinder!!.unbind()
-    }
 }

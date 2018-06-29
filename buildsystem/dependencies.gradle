@@ -18,7 +18,7 @@ ext {
     retrofitVersion = '2.3.0'
     logInterceptorVersion = '3.6.0'
     supportVersion = '25.0.1'
-
+    greendaoVersion='3.2.2'
     recycleAdapterVersion = "2.9.30"
 
     commonDependencies = [

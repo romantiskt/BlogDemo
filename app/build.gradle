@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'org.greenrobot.greendao'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
@@ -44,7 +45,11 @@ android {
         targetCompatibility JavaVersion.VERSION_1_7
     }
 }
-
+greendao {
+    schemaVersion 510
+    daoPackage 'com.wang.advance.tasks.kotlin.entity.db'//设置包名
+    targetGenDir 'src/main/java'//设置目录
+}
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile project(':tools')
