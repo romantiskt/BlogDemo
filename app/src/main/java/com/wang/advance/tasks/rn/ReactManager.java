@@ -26,8 +26,8 @@ public class ReactManager {
                 if (mReactInstanceManager == null) {
                     mReactInstanceManager = ReactInstanceManager.builder()
                             .setApplication(App.getInstance())
-                            .setBundleAssetName("index.bundle")
-                            .setJSMainModulePath("index")
+                            .setBundleAssetName("index.android.bundle")
+//                            .setJSMainModulePath("index")
                             .addPackage(new MainReactPackage())
                             .addPackage(new ReactPackageManager())
                             .setUseDeveloperSupport(BuildConfig.DEBUG)

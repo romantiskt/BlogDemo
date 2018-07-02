@@ -21,7 +21,10 @@
 *  redux
 *  Nagvator
 *  [从源代码编译ReactNative](https://github.com/romantiskt/BlogDemo/tree/master/doc/react_build.md) 
-
+*  打离线包
+```
+react-native bundle --entry-file index.js --bundle-output ./pa/index.android.bundle --platform android --assets-dest ./pa --dev false
+```
 ## Widget
   包含一些自定义view的小demo
  *  paint,canvans制作一些小控件
