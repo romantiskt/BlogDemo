@@ -17,6 +17,7 @@ class RecyAct : BaseKotlinAct() {
     override fun afterInflateView() {
         super.afterInflateView()
         setUnBinder(ButterKnife.bind(this))
+        log("afterInflateView")
     }
 
     fun initData(): List<String> {

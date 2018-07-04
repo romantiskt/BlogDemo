@@ -17,6 +17,7 @@ import com.wang.advance.R
 import com.wang.advance.tasks.kotlin.utils.ActUtil
 import com.wang.advance.tasks.kotlin.utils.CommonUtils
 import com.wang.advance.tasks.kotlin.utils.NetworkUtils
+import javax.xml.datatype.Duration
 
 /**
  * Created by wangyang on 2018/6/27.下午5:45
@@ -137,6 +138,13 @@ abstract class BaseKotlinAct : AppCompatActivity(), IBaseView {
 
     override fun isNetworkConnected(): Boolean {
         return NetworkUtils.isNetworkConnected(applicationContext)
+    }
+
+    /**
+     * 拓展函数，会使Context及其所有子类拥有此方法
+     */
+    fun Context.log(message: String){
+       logger(message)
     }
 
 }

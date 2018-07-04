@@ -8,7 +8,7 @@
 
     <Button
         style="@style/btn_normal"
-        android:text="自定义View"
+        android:text="Widget"
         android:layout_marginTop="10dp"
         android:id="@+id/btn_widget"
         />

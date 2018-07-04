@@ -9,6 +9,7 @@ import com.wang.tools.common.ActivityTasks;
 import com.wang.tools.common.LogUtils;
 
 import butterknife.ButterKnife;
+import butterknife.Unbinder;
 
 /**
  * Created by wangyang on 2017/03/03/
@@ -18,7 +19,7 @@ import butterknife.ButterKnife;
  * 描述:
  */
 public abstract class BaseAct extends AppCompatActivity {
-
+    Unbinder mUnbinder;
 
     @Override
     protected void onStart() {
@@ -44,6 +45,8 @@ public abstract class BaseAct extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
+        if (mUnbinder != null)
+            mUnbinder.unbind();
         super.onDestroy();
         ActivityTasks.removeActivity(this);
         LogUtils.d(getClassTag() + "-----onDestroy()-----");
@@ -53,7 +56,7 @@ public abstract class BaseAct extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(getLayoutId());
-        ButterKnife.bind(this);
+        mUnbinder = ButterKnife.bind(this);
         initView();
         initDataAfterViewInflate();
     }

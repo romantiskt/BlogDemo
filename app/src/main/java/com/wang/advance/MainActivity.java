@@ -10,6 +10,7 @@ import com.wang.advance.tasks.kotlin.KotlinAct;
 import com.wang.advance.tasks.nativ.NativeTestAct;
 import com.wang.advance.tasks.rn.MyReactActivity;
 import com.wang.advance.tasks.rxjava.RxJavaDemoAct;
+import com.wang.advance.tasks.widget.WidgetMain;
 import com.wang.advance.tasks.widget.enter.WidgetAllListAct;
 import com.wang.advance.tasks.widget.low.MultiLinesTextView;
 import com.wang.tools.base.BaseAct;
@@ -55,7 +56,7 @@ public class MainActivity extends BaseAct {
                 startActivity(new Intent(this, MyReactActivity.class));
                 break;
             case R.id.btn_widget:
-                goAct(WidgetAllListAct.class);
+                goAct(WidgetMain.class);
                 break;
             case R.id.btn_rxjava:
                 goAct(RxJavaDemoAct.class);
@@ -70,7 +71,7 @@ public class MainActivity extends BaseAct {
                 goAct(OpenGLDemo.class);
                 break;
             case R.id.btn_kotlin:
-                startActivity(new Intent(this, KotlinAct.class));
+                goAct(KotlinAct.class);
                 break;
         }
     }
