@@ -36,6 +36,7 @@ android {
                            'src/main/res-fragment',
                            'src/main/res-public',
                            'src/main/res-item',
+                           'src/main/res-hencoder',
                            'src/main/res',
             ]
         }

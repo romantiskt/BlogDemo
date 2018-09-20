@@ -52,6 +52,13 @@
         android:layout_marginTop="10dp"
         android:id="@+id/btn_kotlin"
         />
+
+    <Button
+        style="@style/btn_normal"
+        android:text="HenCoder作业"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_hencoder"
+        />
     <com.wang.advance.tasks.widget.low.MultiLinesTextView
         android:id="@+id/text2"
         android:layout_width="wrap_content"
