@@ -39,3 +39,5 @@ react-native bundle --entry-file index.js --bundle-output ./pa/index.android.bun
 ## 设计模式
 
 * 单例模式
+* 工厂模式
+* 抽象工厂模式
