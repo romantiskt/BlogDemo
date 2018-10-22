@@ -34,10 +34,7 @@
             <!-- Tell NativeActivity the name of our .so -->
             <meta-data android:name="android.app.lib_name"
                 android:value="native-activity" />
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
         <activity android:name=".tasks.kotlin.KotlinAct"/>
         <activity android:name=".tasks.kotlin.RecyAct"/>

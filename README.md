@@ -35,3 +35,7 @@ react-native bundle --entry-file index.js --bundle-output ./pa/index.android.bun
 * java和kotlin互调
 * mvp的应用
 * rxjava在kotlin中的应用
+
+## 设计模式
+
+* 单例模式
