@@ -8,7 +8,7 @@ import java.lang.reflect.Proxy;
 public class DynamicUtil {
 
     /**
-     * 创建代理类
+     * 创建代理类   动态代理
      * @return
      */
     public static AbstractPerson createProxy() {

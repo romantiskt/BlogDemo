@@ -2,7 +2,7 @@ package com.wang.advance.tasks.design.proxy.staic;
 
 /**
  * Created by wangyang on 2018/10/23.上午10:39
- * 代理模式
+ * 静态代理模式
  */
 public class Employee extends AbstractPerson {
 
