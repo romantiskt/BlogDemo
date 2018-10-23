@@ -44,3 +44,5 @@ react-native bundle --entry-file index.js --bundle-output ./pa/index.android.bun
 * 模板方法
 * 建造者模式
 * 代理模式
+    * 动态代理
+    * 静态代理
