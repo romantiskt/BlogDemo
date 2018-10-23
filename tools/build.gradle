@@ -59,7 +59,7 @@ dependencies {
     compile commonDependencies.logInterceptor
     compile commonDependencies.rxjavaAdapter
     compile commonDependencies.retrofitConverter
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+//    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     compile "org.greenrobot:greendao:$greendaoVersion"
 //    compile commonDependencies.recycleViewAdapter
     compile commonDependencies.recyclerView

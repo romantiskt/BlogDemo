@@ -57,4 +57,8 @@ dependencies {
     compile("com.facebook.react:react-native:0.55.3")//强制使用指定版本(解决本地版本和项目版本不兼容的情况)
     def commonDependencies = rootProject.ext.commonDependencies
     kapt commonDependencies.butterKnifeCompiler
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
 }

@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.wang.advance.tasks.gl.OpenGLDemo;
-import com.wang.advance.tasks.hencoder.HenCoderListAct;
 import com.wang.advance.tasks.kotlin.KotlinAct;
 import com.wang.advance.tasks.nativ.NativeTestAct;
 import com.wang.advance.tasks.rn.MyReactActivity;
@@ -75,7 +74,6 @@ public class MainActivity extends BaseAct {
                 goAct(KotlinAct.class);
                 break;
             case R.id.btn_hencoder:
-                goAct(HenCoderListAct.class);
                 break;
         }
     }
