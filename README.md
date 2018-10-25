@@ -48,3 +48,4 @@ react-native bundle --entry-file index.js --bundle-output ./pa/index.android.bun
     * [静态代理](https://github.com/romantiskt/BlogDemo/blob/master/app/src/main/java/com/wang/advance/tasks/design/proxy/dynamic/Employee.java)
 * [策略模式](https://github.com/romantiskt/BlogDemo/blob/master/app/src/main/java/com/wang/advance/tasks/design/strategy/MathUtil.java)
 * [原型模式](https://github.com/romantiskt/BlogDemo/blob/master/app/src/main/java/com/wang/advance/tasks/design/prototype/Phone.java)
+* [中介者模式](https://github.com/romantiskt/BlogDemo/blob/master/app/src/main/java/com/wang/advance/tasks/design/agency/Agencyer.java)
