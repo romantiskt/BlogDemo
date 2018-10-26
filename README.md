@@ -50,3 +50,4 @@ react-native bundle --entry-file index.js --bundle-output ./pa/index.android.bun
 * [原型模式](https://github.com/romantiskt/BlogDemo/blob/master/app/src/main/java/com/wang/advance/tasks/design/prototype/Phone.java)
 * [中介者模式](https://github.com/romantiskt/BlogDemo/blob/master/app/src/main/java/com/wang/advance/tasks/design/agency/Agencyer.java)
 * [命令模式](https://github.com/romantiskt/BlogDemo/blob/master/app/src/main/java/com/wang/advance/tasks/design/command/CommandUtil.java)
+* [责任链模式](https://github.com/romantiskt/BlogDemo/blob/master/app/src/main/java/com/wang/advance/tasks/design/responsibility/ResponsibilityTest.java)
