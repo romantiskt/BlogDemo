@@ -55,3 +55,4 @@ react-native bundle --entry-file index.js --bundle-output ./pa/index.android.bun
 * [迭代器模式](https://github.com/romantiskt/BlogDemo/blob/master/app/src/main/java/com/wang/advance/tasks/design/iterator/IteratorUtil.java)
 * [组合模式](https://github.com/romantiskt/BlogDemo/blob/master/app/src/main/java/com/wang/advance/tasks/design/composite/Component.java)
 * [观察者模式](https://github.com/romantiskt/BlogDemo/blob/master/app/src/main/java/com/wang/advance/tasks/design/observer/ObserverTest.java)
+* [备忘录模式](https://github.com/romantiskt/BlogDemo/blob/master/app/src/main/java/com/wang/advance/tasks/design/memo/CommonView.java)
