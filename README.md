@@ -57,3 +57,4 @@ react-native bundle --entry-file index.js --bundle-output ./pa/index.android.bun
 * [观察者模式](https://github.com/romantiskt/BlogDemo/blob/master/app/src/main/java/com/wang/advance/tasks/design/observer/ObserverTest.java)
 * [备忘录模式](https://github.com/romantiskt/BlogDemo/blob/master/app/src/main/java/com/wang/advance/tasks/design/memo/CommonView.java)
 * [状态模式](https://github.com/romantiskt/BlogDemo/blob/master/app/src/main/java/com/wang/advance/tasks/design/state/StateTest.java)
+* [享元模式](https://github.com/romantiskt/BlogDemo/blob/master/app/src/main/java/com/wang/advance/tasks/design/pool/ThreadPool.java)
