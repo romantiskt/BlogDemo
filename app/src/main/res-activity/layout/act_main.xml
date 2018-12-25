@@ -59,6 +59,12 @@
         android:layout_marginTop="10dp"
         android:id="@+id/btn_hencoder"
         />
+    <Button
+        style="@style/btn_normal"
+        android:text="Dagger"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_dagger"
+        />
     <com.wang.advance.tasks.widget.low.MultiLinesTextView
         android:id="@+id/text2"
         android:layout_width="wrap_content"

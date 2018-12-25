@@ -40,8 +40,7 @@
         <activity android:name=".tasks.kotlin.RecyAct"/>
         <activity android:name=".tasks.kotlin.tasks.login.LoginAct"/>
         <activity android:name=".tasks.widget.WidgetMain"/>
-        <activity android:name=".tasks.hencoder.HenCoderListAct"/>
-        <activity android:name=".tasks.hencoder.SingleHenCoderAct"/>
+        <activity android:name=".tasks.dagger.DraggerDemoAct"/>
     </application>
 
 </manifest>

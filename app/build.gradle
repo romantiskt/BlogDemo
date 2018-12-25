@@ -57,6 +57,8 @@ dependencies {
     def commonDependencies = rootProject.ext.commonDependencies
     kapt commonDependencies.butterKnifeCompiler
     api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    api 'com.google.dagger:dagger:2.20'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.20'
 
 }
 repositories {

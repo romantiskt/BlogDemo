@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.wang.advance.tasks.dagger.DraggerDemoAct;
 import com.wang.advance.tasks.gl.OpenGLDemo;
 import com.wang.advance.tasks.kotlin.KotlinAct;
 import com.wang.advance.tasks.nativ.NativeTestAct;
@@ -49,7 +50,8 @@ public class MainActivity extends BaseAct {
 //        mTv.setmDatas(D);
     }
 
-    @OnClick({ R.id.btn_widget,R.id.btn_rxjava,R.id.btn_rn,R.id.btn_app_native,R.id.btn_native,R.id.btn_open_gl,R.id.btn_kotlin,R.id.btn_hencoder})
+    @OnClick({ R.id.btn_widget,R.id.btn_rxjava,R.id.btn_rn,R.id.btn_app_native,R.id.btn_native,R.id.btn_open_gl,R.id.btn_kotlin,R.id.btn_hencoder,
+    R.id.btn_dagger})
     void click(View view) {
         switch (view.getId()) {
             case R.id.btn_rn:
@@ -74,6 +76,9 @@ public class MainActivity extends BaseAct {
                 goAct(KotlinAct.class);
                 break;
             case R.id.btn_hencoder:
+                break;
+            case R.id.btn_dagger:
+                goAct(DraggerDemoAct.class);
                 break;
         }
     }
