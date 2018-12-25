@@ -1,19 +1,16 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.0"
-
+    compileSdkVersion  rootProject.ext.compileSdkVersion
     defaultConfig {
-        minSdkVersion 15
-        targetSdkVersion 25
-        versionCode 1
-        versionName "1.0"
-
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
         externalNativeBuild {
             cmake {
                 arguments '-DANDROID_STL=c++_static'
+                abiFilters  "armeabi-v7a", "x86"
             }
         }
     }
@@ -41,29 +38,23 @@ allprojects {
 }
 dependencies {
 
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-
+    api fileTree(include: ['*.jar'], dir: 'libs')
     def commonDependencies = rootProject.ext.commonDependencies
 
-    compile commonDependencies.retrofit
-    compile commonDependencies.gson
-    compile commonDependencies.rxJava
-    compile commonDependencies.rxAndroid
-    compile commonDependencies.butterKnife
-    compile commonDependencies.appcompatV7
-    compile commonDependencies.material
-    compile commonDependencies.logInterceptor
-    compile commonDependencies.rxjavaAdapter
-    compile commonDependencies.retrofitConverter
+    api commonDependencies.retrofit
+    api commonDependencies.gson
+    api commonDependencies.rxJava
+    api commonDependencies.rxAndroid
+    api commonDependencies.butterKnife
+    api commonDependencies.appcompatV7
+    api commonDependencies.material
+    api commonDependencies.logInterceptor
+    api commonDependencies.rxjavaAdapter
+    api commonDependencies.retrofitConverter
 //    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    compile "org.greenrobot:greendao:$greendaoVersion"
+    api "org.greenrobot:greendao:$greendaoVersion"
 //    compile commonDependencies.recycleViewAdapter
-    compile commonDependencies.recyclerView
-    compile('me.drakeet.multitype:multitype:3.3.0', {
+    api('me.drakeet.multitype:multitype:3.3.0', {
         exclude group: 'com.android.support'
     })
 }

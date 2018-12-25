@@ -4,18 +4,17 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'org.greenrobot.greendao'
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.0"
+    compileSdkVersion  rootProject.ext.compileSdkVersion
     defaultConfig {
         applicationId "com.wang.advance"
-        minSdkVersion 16
-        targetSdkVersion 25
-        versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
         externalNativeBuild {
             cmake {
                 arguments '-DANDROID_STL=c++_static'
+                abiFilters  "armeabi-v7a", "x86"
             }
         }
     }
@@ -52,12 +51,13 @@ greendao {
     targetGenDir 'src/main/java'//设置目录
 }
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile project(':tools')
-    compile("com.facebook.react:react-native:0.55.3")//强制使用指定版本(解决本地版本和项目版本不兼容的情况)
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api project(':tools')
+    api("com.facebook.react:react-native:0.55.3")//强制使用指定版本(解决本地版本和项目版本不兼容的情况)
     def commonDependencies = rootProject.ext.commonDependencies
     kapt commonDependencies.butterKnifeCompiler
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
 }
 repositories {
     mavenCentral()
