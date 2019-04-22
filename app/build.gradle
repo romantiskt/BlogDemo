@@ -4,7 +4,7 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'org.greenrobot.greendao'
 android {
-    compileSdkVersion  rootProject.ext.compileSdkVersion
+    compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
         applicationId "com.wang.advance"
         minSdkVersion rootProject.ext.minSdkVersion
@@ -14,7 +14,7 @@ android {
         externalNativeBuild {
             cmake {
                 arguments '-DANDROID_STL=c++_static'
-                abiFilters  "armeabi-v7a", "x86"
+                abiFilters "armeabi-v7a", "x86"
             }
         }
     }
@@ -38,6 +38,7 @@ android {
                            'src/main/res-hencoder',
                            'src/main/res',
             ]
+            java.srcDirs = ['src/main/java', 'src/main/aidl']
         }
     }
     compileOptions {
@@ -53,7 +54,7 @@ greendao {
 dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
     api project(':tools')
-    api("com.facebook.react:react-native:0.55.3")//强制使用指定版本(解决本地版本和项目版本不兼容的情况)
+    api("com.facebook.react:react-native:0.55.4")//强制使用指定版本(解决本地版本和项目版本不兼容的情况)
     def commonDependencies = rootProject.ext.commonDependencies
     kapt commonDependencies.butterKnifeCompiler
     api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
